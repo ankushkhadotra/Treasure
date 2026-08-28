@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"f9fee8e456204e50","type":"text","text":"BIOMOLECULES","x":-140,"y":-320,"width":181,"height":50,"color":"3"},
+		{"id":"9debbdb82345545f","type":"text","text":"Micromolecules\n","x":-310,"y":-100,"width":170,"height":50,"color":"3"},
+		{"id":"7dc05632cf4ee9a3","type":"text","text":"Macromolecules","x":41,"y":-100,"width":180,"height":50,"color":"3"},
+		{"id":"524968cb9451d34c","type":"text","text":"- Carbohydrates\n- Polypeptides\n- Nucleic acid\n- Oils/Fats","x":92,"y":28,"width":259,"height":132,"color":"3"},
+		{"id":"aa37b2104005b98e","type":"text","text":"- Sugar\n- Amino acid\n- nucleotides\n- fatty acids","x":-435,"y":28,"width":250,"height":132,"color":"3"}
+	],
+	"edges":[
+		{"id":"b0c58214ad58aaf1","fromNode":"f9fee8e456204e50","fromSide":"bottom","toNode":"9debbdb82345545f","toSide":"top"},
+		{"id":"dfc09894dba18eae","fromNode":"f9fee8e456204e50","fromSide":"bottom","toNode":"7dc05632cf4ee9a3","toSide":"top"},
+		{"id":"c1b75616af94df84","fromNode":"9debbdb82345545f","fromSide":"bottom","toNode":"aa37b2104005b98e","toSide":"top"},
+		{"id":"1289ce8f13533cff","fromNode":"aa37b2104005b98e","fromSide":"right","toNode":"524968cb9451d34c","toSide":"left","label":"Polymerisation"},
+		{"id":"86e44b181cbe81c3","fromNode":"7dc05632cf4ee9a3","fromSide":"bottom","toNode":"524968cb9451d34c","toSide":"top"}
+	]
+}
