@@ -43,6 +43,7 @@ cssclasses:
 
 ![[cell classification.png|464]]
 
+- - - 
 ## Prokaryotes
 
 - **Prokaryotes** are unicellular organisms that lack a membrane-bound nucleus and organelles.
@@ -108,3 +109,44 @@ cssclasses:
 2. **Pili** and **Fimbriae** 
 	- **Fimbriae**: Short, hair-like bristles used for attachment to surfaces and host tissues.
 	- **Pili (Sex Pili)**: Longer, fewer appendages that facilitate the transfer of plasmid DNA between cells during conjugation.
+
+- - - 
+## Eukaryotes 
+
+- Cells containing a **true, membrane-bound nucleus** and highly compartmentalized, membrane-bound organelles are called ==Eukaryotes==.
+- Derived from Greek word ***Eukaryon*** (**Eu**= True; **Karyon**= Nucleus)
+- Evolved from prokaryotes ~1.5 to 2 billion years ago, likely via [[Endosymbiotic Theory]] 
+- Include all members of kingdom **Protista**, **Fungi**, **Plantae**, and **Animalia**.
+### Characteristics 
+- **Size**: Large and complex. Typically **10 to 100 µm** in diameter (much larger then prokaryotes).
+- **Genetic Material**: Linear, double-stranded [[DNA]] wrapped around **histone proteins** to form chromosomes inside nuclear envelope.
+- **Compartmentalization**: Extensive internal division into functional zones via intracellular membranes.
+- **Ribosomes**: **80s type** in the cytoplasm(60s and 40s subunits); 70s type inside mitochondria and chloroplasts.
+- **Cytoskeleton**: Complex network of [[Microtubules]], microfilaments, and intermediate filaments for structural integrity.
+
+### Ultrastructure of Eukaryotes
+
+![[eukaryotic-cell.jpg|592]]
+
+### Cell Wall 
+- Present in plants, fungi, and algae. Absent in animas.
+- **Composition**:
+	- **Plants**: [[Cellulose]], [[Hemicellulose]], pectin, and proteins.
+	- **Fungi**: [[Chitin]]
+- **Layers**:
+	- **Middle Lamella**: Outermost layer. Made of calcium and magnesium pectate. Glues neighbouring cells together.
+	- **Primary Wall**: Thin, flexible, extensible layer formed in growing cells.
+	- **Secondary Wall**: Thick, rigid layer formed inside the primary wall when the cell stops growing. Contains [[Lignin]] in woody tissues.
+- **Function**: 
+	- Provides mechanical strength
+	- Maintains shape of cell
+	- Prevents osmotic bursting
+- **Connections**: Traversed by [[Plasmodesmata]] for intercellular transport.
+### Cell Membrane (Plasma Membrane)
+
+- **Models**: 
+	1. **Fluid Mosaic Model**:
+		- Given by **Singer and Nicolson** in 1972.
+		- It is **standard** and  most widely accepted.
+		- The **fluid mosaic model** ==defines the cell membrane as a **dynamic, flexible phospholipid bilayer** embedded with a mosaic of proteins, cholesterol, and carbohydrates that can move laterally within the membrane==.
+	2. 
