@@ -51,7 +51,7 @@ cssclasses:
 - Nucleus: Nuclear envelope with nuclear pore complex, Nucleolus, Nucleoplasm and Chromatin
 - Historical overview; Understanding Mendel's principles, symbols and terminologies
 - Laws of dominance, segregation and independent assortment
-- Gene interactions and their outcome
+- Gene interactions and their outcome(Epistasis)
 
 ## Unit 2: Introduction to Biomolecules
 
