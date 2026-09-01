@@ -1,0 +1,217 @@
+{
+  "main": {
+    "id": "9a8c7000a6fba628",
+    "type": "split",
+    "children": [
+      {
+        "id": "ada8a9d9d2691576",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "90151656ca8b063c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Major Biotech/Syllabus- SEM 1(Maj.).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Syllabus- SEM 1(Maj.)"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6b347efd171dcb1e",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "537cab3b1d109286",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "c764f09027b6d81b",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "840dbf1eb91c84e9",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "c4bce31b0b8f88df",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-archive",
+          "title": "All properties"
+        }
+      },
+      {
+        "id": "8c9ff34588b39884",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "cced96e70469b501",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "7f45640df19423ca",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Minor Zoology/Carbohydrates.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "30e3378383d1b8aa",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Major Biotech/01 Cell Biology and Genetics.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "9594a39054af958d",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Major Biotech/01 Cell Biology and Genetics.md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      },
+      {
+        "id": "cdf232c94b4ba995",
+        "type": "leaf",
+        "state": {
+          "type": "review-queue-list-view",
+          "state": {},
+          "icon": "lucide-ghost",
+          "title": "review-queue-list-view"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "90151656ca8b063c",
+  "lastOpenFiles": [
+    "Major Biotech/Syllabus- SEM 1(Maj.).md",
+    "Minor Zoology/Carbohydrates.md",
+    "Major Biotech/02 Introduction to Biomolecules.md",
+    "Untitled 1",
+    "Untitled",
+    "Minor Zoology/Syllabus- SEM 1(Min. Zoology).md",
+    "Minor Zoology/01 Structure and Function of Biomolecules.md",
+    "Major Biotech/01 Cell Biology and Genetics.md",
+    "Pasted image 20260830131000.png",
+    "Pasted image 20260830130948.png",
+    "Major Biotech/images/Golgi_complex_diagram.webp",
+    "Major Biotech/images/eukaryotic-cell.jpg",
+    "Major Biotech/images/Endoplasmic reticulum.png",
+    "Major Biotech/images/cell-membrane.webp",
+    "Pasted image 20260829080853.png",
+    "eukaryotic-cell.webp",
+    "eukaryotic-cell.jpg",
+    "Untitled.canvas",
+    "Cellulose.md",
+    "VAC DTS/Syllabus- SEM 1(VAC DTS).md",
+    "$/beta$-D-Glucose Structure.md",
+    "$",
+    "MD Pol. Science/Syllabus- SEM 1(MD Pol Sci).md",
+    "Skill Biotech/Syllabus- SEM 1(Skill).md",
+    "VAC EVS 1/Syllabus- SEM 1(VAC EVS).md",
+    "All FIles.base"
+  ]
+}

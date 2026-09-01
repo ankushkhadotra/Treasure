@@ -55,7 +55,7 @@ cssclasses:
 
 ## Unit 2: Introduction to Biomolecules
 
-- **Carbohydrates:** Definition, functions and classification of carbohydrates. Oligosaccharides, Polysaccharides — components and functions
+- **[[Carbohydrates]]:** Definition, functions and classification of carbohydrates. Oligosaccharides, Polysaccharides — components and functions
 - **Amino acids:** Structures and Classifications
 - **Proteins:** Physical properties: salting in and salting out, peptide bond, Organization of protein structure into primary, secondary, tertiary and quaternary structures
 - **Lipids:** Introduction, classification, properties of Fatty acids, Saturated and unsaturated fatty acids, Essential fatty acids, Triacylglycerol, simple and mixed Triacylglycerol
