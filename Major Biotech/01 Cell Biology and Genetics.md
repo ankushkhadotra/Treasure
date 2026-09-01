@@ -516,3 +516,104 @@ Defects in peroxisome function block VLCFA breakdown, halting myelin synthesis a
 
 ---
 
+---
+tags:
+  - Biotech/Sem1
+  - CellBiology/Organelles
+  - Evolution/Cellular
+---
+
+# Semi-Autonomous Organelles & Endosymbiotic Theory
+
+## 1. Overview of Semi-Autonomy
+**Semi-autonomous organelles** are cellular structures that contain their own genetic material and can perform independent functions, yet still rely on the host cell nucleus for survival. 
+* **Key Examples:** [[Mitochondria]] and [[Chloroplasts]].
+* **The Core Paradox:** They contain their own machinery but cannot survive outside the host cell today.
+
+---
+
+## 2. The Endosymbiotic Theory
+Proposed by **Lynn Margulis**, this theory states that eukaryotic cells evolved through a symbiotic relationship between distinct prokaryotic organisms.
+
+### A. Evolutionary Timeline
+1. **Host Cell:** An ancestral anaerobic eukaryote (or large archaeon) engulfed smaller prokaryotes.
+2. **Mitochondrial Origin:** The host engulfed an **aerobic heterotrophic alphaproteobacterium**. Instead of digesting it, the host retained it for its efficient ATP production.
+3. **Chloroplast Origin:** A lineage of the mitochondria-containing cells subsequently engulfed a **photosynthetic cyanobacterium**, leading to modern plants and algae.
+
+### B. Visual Summary of the Process
+```mermaid
+graph TD
+    %% Define Nodes
+    A[Host Cell<br><small>Ancestral Anaerobe</small>]
+    B(Aerobic Bacteria)
+    C{Endosymbiosis 1}
+    D[Heterotrophic Eukaryote<br><small>Animals / Fungi</small>]
+    E(Cyanobacteria)
+    F{Endosymbiosis 2}
+    G[Autotrophic Eukaryote<br><small>Green & Red Algae / Plants</small>]
+    
+    %% New Nodes Added Below
+    H(Heterotrophic Eukaryote Host 2)
+    I{Secondary Endosymbiosis}
+    J[Complex Algae & Protists<br><small>e.g., Euglenids / Diatoms</small>]
+
+    %% Define Connections
+    A --> C
+    B --> C
+    C --> D
+    D --> F
+    E --> F
+    F --> G
+    
+    %% New Connections Added Below
+    G --> I
+    H --> I
+    I --> J
+
+    %% Styling
+    style C fill:#f9f,stroke:#333,stroke-width:1px
+    style F fill:#bbf,stroke:#333,stroke-width:1px
+    style I fill:#ffcb6b,stroke:#333,stroke-width:1px
+```
+
+> [!abstract] Crux of Endosymbiotic Evolution
+> * **Serial Events:** Cellular evolution occurred in distinct, sequential steps (serial endosymbiosis).
+> * **Mitochondria First (Endosymbiosis 1):** An anaerobic host engulfed an **aerobic heterotrophic bacterium**. This universal event created the ancestral **heterotrophic eukaryote** (giving rise to all modern animals and fungi).
+> * **Chloroplasts Second (Endosymbiosis 2):** A sub-lineage of those heterotrophic cells subsequently engulfed a **photosynthetic cyanobacterium**, creating the ancestral **autotrophic eukaryote** (giving rise to modern plants and algae).
+> * **The Core Rule:** All plants have mitochondria because Endosymbiosis 1 happened first; animals lack chloroplasts because their lineage branched off before Endosymbiosis 2 occurred.
+
+---
+## 3. High-Yield Evidence for Endosymbiosis 
+Biotech exams frequently test the specific bacterial characteristics of these organelles. Use this checklist for reference: 
+- [ ] **Circular DNA:** Both organelles possess naked, circular DNA loops ($mtDNA$ and $cpDNA$) completely lacking histones, identical to bacterial genomes. 
+- [ ] **Ribosome Size:** They contain **70S ribosomes** (composed of 50S and 30S subunits), whereas the eukaryotic cytoplasm uses **80S ribosomes**. 
+- [ ] **Binary Fission:** Organelles replicate independently of the cell cycle using FtsZ-like proteins in a process akin to bacterial binary fission. 
+- [ ] **Double Membrane:** 
+	* **Inner membrane:** Belongs to the original bacterium (contains cardiolipin). 
+	* **Outer membrane:** Derived from the host cell's endocytic vesicle. 
+- [ ] **Antibiotic Sensitivity:** Organellar protein synthesis is inhibited by bacterial antibiotics (e.g., chloramphenicol, tetracycline) but unaffected by eukaryotic inhibitors (e.g., cycloheximide). 
+
+---
+## 4. Why are they only "Semi"-Autonomous? 
+Over evolutionary timescales, the relationship transformed from symbiosis to absolute dependency due to two main factors: 
+### A. Endosymbiotic Gene Transfer (EGT) 
+* Over millions of years, a massive migration of genes occurred from the organelle's genome to the host cell’s nucleus. 
+* **Result:** Mitochondria only retain about 37 genes; the rest are housed in the nucleus. ### B. Nuclear Control of Assembly 
+* While they make some of their own proteins, the vast majority of their proteins are encoded by nuclear DNA, synthesized in the cytosol, and imported via complex translocases: 
+	* **Mitochondria:** [[TOM/TIM Complex]] 
+	* **Chloroplasts:** [[TOC/TIC Complex]] 
+
+---
+## 5. Quick Comparison Table
+| Feature              | Mitochondria               | Chloroplast            | Ancestral Bacterium    |
+| :------------------- | :------------------------- | :--------------------- | :--------------------- |
+| **Primary Function** | Cellular Respiration (ATP) | Photosynthesis (Sugar) | Independent Metabolism |
+| **DNA Structure**    | Circular, no histones      | Circular, no histones  | Circular, no histones  |
+| **Division Method**  | Fission-like               | Fission-like           | Binary Fission         |
+| **Ribosome Type**    | 70S                        | 70S                    | 70S                    |
+
+--- 
+## References & External Links 
+* Overview of evolutionary concepts: [ScienceDirect Topics](https://sciencedirect.com). 
+* Detailed breakdown: [Biology Online Dictionary](https://biologyonline.com). 
+* Study Modules: [Khan Academy Cell Tour](https://khanacademy.org).
