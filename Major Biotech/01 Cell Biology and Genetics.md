@@ -30,7 +30,7 @@ cssclasses:
   1. All living organisms are composed of cells and products of cells.
   2. All cells rise from pre-existing cells(==*omnis cellula e cellua*==)
 ## What is a Cell? 
-- A cell is the ==fundamental unit of life== that makes up all living organisms, from unicellular organisms like bacteria to multicellular organisms like humans.
+- A cell is the ==fundamental unit of life== that makes up all living organisms, from unicellular organisms like bacterial to multicellular organisms like humans.
 - Each cell can perform essential life processes independently or in coordination with other cells.
 - The cell was 1<sup>st</sup> discovered by **Robert Hooke** in **1665**.
 - He examined a thin slice of cork under a custom compound microscope.
