@@ -20,8 +20,8 @@ cssclasses:
 - Proposed by:
 	1. **Matthias Schleiden**: German scientist 
 		He stated that all plants are composed of different types of cells that form plant tissues.
-	2. **Theodor Schwann**: German zoologist 
-		He reported that all cells are composed of cells and cellular products.
+	2. **Theodore Schwann**: German zoologist 
+		He reported that all animals are composed of cells and cellular products.
 		Cell is the basic structural unit of all living organisms.
 	3. **Rudolf Virchow**(1855):   
 		He modified cell theory by adding ==*"Omnis cellula e cellua"*==.
