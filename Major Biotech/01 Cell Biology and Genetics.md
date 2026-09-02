@@ -68,7 +68,7 @@ cssclasses:
 		Thin peptidoglycan layer with outer membrane, stain pink
 ### Domains of Prokaryotes
 
-**![[domain of prokaryote.png|700]]
+![[domain of prokaryote.png|700]]
 
 ### Ultrastructure of Prokaryotes
 
