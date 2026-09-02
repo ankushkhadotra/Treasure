@@ -13,15 +13,15 @@ aliases:
 cssclasses:
   - unit-01
 ---
-[Cell membrane anatomical structure. Labeled educational scheme with glycoprotein, integral protein, glycolipid and cholesterol. Vector illustration](https://www.shutterstock.com/image-vector/cell-membrane-anatomical-structure-labeled-educational-2539395107)# Cell Theory 
+# Cell Theory 
 #cell-theory 
 
 - Fundamental scientific theory of biology according to which [cells](https://www.britannica.com/science/cell-biology) are held to be the basic unit of all living [tissues](https://www.britannica.com/science/tissue).
 - Proposed by:
 	1. **Matthias Schleiden**: German scientist 
-		He stated that all plant cells are composed of different types of cells that form plant tissues.
-	2. **Theodor Schwann**: German zoologist 
-		He reported that all cells are composed of cells and cellular products.
+		He stated that all plants are composed of different types of cells that form plant tissues.
+	2. **Theodore Schwann**: German zoologist 
+		He reported that all animals are composed of cells and cellular products.
 		Cell is the basic structural unit of all living organisms.
 	3. **Rudolf Virchow**(1855):   
 		He modified cell theory by adding ==*"Omnis cellula e cellua"*==.
@@ -30,7 +30,7 @@ cssclasses:
   1. All living organisms are composed of cells and products of cells.
   2. All cells rise from pre-existing cells(==*omnis cellula e cellua*==)
 ## What is a Cell? 
-- A cell is the ==fundamental unit of life== that makes up all living organisms, from unicellular organisms like bacteria to multicellular organisms like humans.
+- A cell is the ==fundamental unit of life== that makes up all living organisms, from unicellular organisms like bacterial to multicellular organisms like humans.
 - Each cell can perform essential life processes independently or in coordination with other cells.
 - The cell was 1<sup>st</sup> discovered by **Robert Hooke** in **1665**.
 - He examined a thin slice of cork under a custom compound microscope.
@@ -66,9 +66,33 @@ cssclasses:
 		Thick peptidoglycan layer, stain purple
 	- **Gram -ve**:
 		Thin peptidoglycan layer with outer membrane, stain pink
+
+> [!NOTE] **The Core Mechanism of Gram Staining**
+> Gram staining differentiates bacteria based strictly on the physical thickness and structure of their **peptidoglycan cell wall**.
+> 
+> **Steps Used**:
+> 1. Crystal violet is added.
+> 2. Gram's iodine is added and it forms **Crystal Violet-Idinone** complex inside.
+> 3. Alcohol/Acetone is used as decolourizer
+> 4. Now a counterstain**Safranine** is added and it gives **purple** for G+ve and **pink or red** for G-ve.
+>
+> * **Gram-Positive (+ve) 🟣 Purple:** 
+>   * Has a **thick** peptidoglycan layer.
+>   * Dehydrates and shrinks when exposed to alcohol, permanently trapping the large **Crystal Violet-Idinone** complex inside.
+> * **Gram-Negative (-ve) 💗 Pink:** 
+>   * Has a **thin** peptidoglycan layer + an outer lipid membrane.
+>   * Alcohol dissolves the outer membrane and washes away the primary purple dye, allowing the cells to absorb the **Safranin counterstain**.
+>
+> | Step | Chemical Agent | Gram +ve | Gram -ve |
+| :--- | :--- | :--- | :--- |
+| **1. Primary Stain** | Crystal Violet | Purple 🟣 | Purple 🟣 |
+| **2. Mordant** | Iodine | Purple 🔒 | Purple 🔒 |
+| **3. Decolorizer** | Alcohol / Acetone | **Purple 🟣** | **Clear ⚪** |
+| **4. Counterstain** | Safranin | **Purple 🟣** | **Pink 💗** |
+
 ### Domains of Prokaryotes
 
-**![[domain of prokaryote.png|700]]
+![[domain of prokaryote.png|700]]
 
 ### Ultrastructure of Prokaryotes
 
