@@ -637,7 +637,12 @@ Over evolutionary timescales, the relationship transformed from symbiosis to abs
 | **Ribosome Type**    | 70S                        | 70S                    | 70S                    |
 
 --- 
-## References & External Links 
-* Overview of evolutionary concepts: [ScienceDirect Topics](https://sciencedirect.com). 
-* Detailed breakdown: [Biology Online Dictionary](https://biologyonline.com). 
-* Study Modules: [Khan Academy Cell Tour](https://khanacademy.org).
+# [[Nucleus]] 
+
+The cell nucleus is ==a membrane-bound organelle in eukaryotic cells that stores DNA and directs all cellular activities==.
+
+>[!info] Info
+>Everything about nucleus is in the link, click [[Nucleus]] to view.
+
+
+
