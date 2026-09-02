@@ -70,8 +70,10 @@ cssclasses:
 > [!NOTE] **The Core Mechanism of Gram Staining**
 > Gram staining differentiates bacteria based strictly on the physical thickness and structure of their **peptidoglycan cell wall**.
 > **Steps Used**:
-> 1. Primary Stain: 
-> 2. 
+> 1. Crystal violet is added.
+> 2. Gram's iodine is added and it forms **Crystal Violet-Idinone** complex inside.
+> 3. 
+>
 > * **Gram-Positive (+ve) 🟣 Purple:** 
 >   * Has a **thick** peptidoglycan layer.
 >   * Dehydrates and shrinks when exposed to alcohol, permanently trapping the large **Crystal Violet-Idinone** complex inside.
