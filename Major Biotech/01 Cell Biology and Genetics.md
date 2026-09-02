@@ -66,7 +66,8 @@ cssclasses:
 		Thick peptidoglycan layer, stain purple
 	- **Gram -ve**:
 		Thin peptidoglycan layer with outer membrane, stain pink
-		> [!NOTE] **The Core Mechanism of Gram Staining**
+
+> [!NOTE] **The Core Mechanism of Gram Staining**
 > Gram staining differentiates bacteria based strictly on the physical thickness and structure of their **peptidoglycan cell wall**.
 > 
 > * **Gram-Positive (+ve) 🟣 Purple:** 
@@ -77,14 +78,11 @@ cssclasses:
 >   * Alcohol dissolves the outer membrane and washes away the primary purple dye, allowing the cells to absorb the **Safranin counterstain**.
 >
 > | Step | Chemical Agent | Gram +ve | Gram -ve |
-
 | :--- | :--- | :--- | :--- |
 | **1. Primary Stain** | Crystal Violet | Purple 🟣 | Purple 🟣 |
 | **2. Mordant** | Iodine | Purple 🔒 | Purple 🔒 |
 | **3. Decolorizer** | Alcohol / Acetone | **Purple 🟣** | **Clear ⚪** |
 | **4. Counterstain** | Safranin | **Purple 🟣** | **Pink 💗** |
-
-
 
 ### Domains of Prokaryotes
 
