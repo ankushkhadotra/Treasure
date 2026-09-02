@@ -69,11 +69,12 @@ cssclasses:
 
 > [!NOTE] **The Core Mechanism of Gram Staining**
 > Gram staining differentiates bacteria based strictly on the physical thickness and structure of their **peptidoglycan cell wall**.
+> 
 > **Steps Used**:
 > 1. Crystal violet is added.
 > 2. Gram's iodine is added and it forms **Crystal Violet-Idinone** complex inside.
 > 3. Alcohol/Acetone is used as decolourizer
-> 4. Now a counterstain**Safranine** is added and it gives purple for G+ve and pink or red for G-ve.
+> 4. Now a counterstain**Safranine** is added and it gives **purple** for G+ve and **pink or red** for G-ve.
 >
 > * **Gram-Positive (+ve) 🟣 Purple:** 
 >   * Has a **thick** peptidoglycan layer.
