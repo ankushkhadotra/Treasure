@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Major Biotech/Syllabus- SEM 1(Maj.).md",
+                "file": "Major Biotech/01 Cell Biology and Genetics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Syllabus- SEM 1(Maj.)"
+              "title": "01 Cell Biology and Genetics"
             }
           }
         ]
@@ -117,7 +117,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Minor Zoology/Carbohydrates.md",
+            "file": "Major Biotech/01 Cell Biology and Genetics.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
