@@ -84,6 +84,8 @@ cssclasses:
 | **3. Decolorizer** | Alcohol / Acetone | **Purple 🟣** | **Clear ⚪** |
 | **4. Counterstain** | Safranin | **Purple 🟣** | **Pink 💗** |
 
+
+
 ### Domains of Prokaryotes
 
 ![[domain of prokaryote.png|700]]
