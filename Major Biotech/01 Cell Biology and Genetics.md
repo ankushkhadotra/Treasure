@@ -13,7 +13,6 @@ aliases:
 cssclasses:
   - unit-01
 ---
-[Cell membrane anatomical structure. Labeled educational scheme with glycoprotein, integral protein, glycolipid and cholesterol. Vector illustration](https://www.shutterstock.com/image-vector/cell-membrane-anatomical-structure-labeled-educational-2539395107)
 # Cell Theory 
 #cell-theory 
 
