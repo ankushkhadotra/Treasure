@@ -67,7 +67,7 @@ cssclasses:
 	- **Gram -ve**:
 		Thin peptidoglycan layer with outer membrane, stain pink
 
-> [!NOTE] **The Core Mechanism of Gram Staining**
+> [!important] **The Core Mechanism of Gram Staining**
 > Gram staining differentiates bacteria based strictly on the physical thickness and structure of their **peptidoglycan cell wall**.
 > 
 > * **Gram-Positive (+ve) 🟣 Purple:** 
