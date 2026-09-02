@@ -13,7 +13,8 @@ aliases:
 cssclasses:
   - unit-01
 ---
-[Cell membrane anatomical structure. Labeled educational scheme with glycoprotein, integral protein, glycolipid and cholesterol. Vector illustration](https://www.shutterstock.com/image-vector/cell-membrane-anatomical-structure-labeled-educational-2539395107)# Cell Theory 
+[Cell membrane anatomical structure. Labeled educational scheme with glycoprotein, integral protein, glycolipid and cholesterol. Vector illustration](https://www.shutterstock.com/image-vector/cell-membrane-anatomical-structure-labeled-educational-2539395107)
+# Cell Theory 
 #cell-theory 
 
 - Fundamental scientific theory of biology according to which [cells](https://www.britannica.com/science/cell-biology) are held to be the basic unit of all living [tissues](https://www.britannica.com/science/tissue).
