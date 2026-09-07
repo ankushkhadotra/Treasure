@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dependencies/Nucleus.md",
-                "mode": "preview",
+                "file": "Major Biotech/01 Cell Biology and Genetics.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nucleus"
+              "title": "01 Cell Biology and Genetics"
             }
           }
         ]
@@ -187,8 +187,8 @@
   },
   "active": "90151656ca8b063c",
   "lastOpenFiles": [
-    "Major Biotech/01 Cell Biology and Genetics.md",
     "Dependencies/Nucleus.md",
+    "Major Biotech/01 Cell Biology and Genetics.md",
     "Excalidraw/Drawing 2026-09-08 01.03.55.excalidraw.md",
     "Dependencies/Mitochondria.md",
     "Dependencies/Carbohydrates.md",
