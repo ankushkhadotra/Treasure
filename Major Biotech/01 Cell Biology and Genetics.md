@@ -630,7 +630,7 @@ Over evolutionary timescales, the relationship transformed from symbiosis to abs
 | **Ribosome Type**    | 70S                        | 70S                    | 70S                    |
 
 --- 
-#Nucleus
+## Nucleus
 
 The cell nucleus is ==a membrane-bound organelle in eukaryotic cells that stores DNA and directs all cellular activities==
 ### 1. Structural Overview & Universality
@@ -650,7 +650,7 @@ The cell nucleus is ==a membrane-bound organelle in eukaryotic cells that store
 
 The nuclear envelope isolates genomic transcription and processing from cytoplasmic translation. 
 
-### A. Molecular Architecture
+#### A. Molecular Architecture
 
 - **Outer Nuclear Membrane (ONM):** 
     
@@ -673,7 +673,7 @@ The nuclear envelope isolates genomic transcription and processing from cytoplas
     - Structurally continuous with the lumen of the Endoplasmic Reticulum. 
 
 
-### B. The Nuclear Lamina
+#### B. The Nuclear Lamina
 
 - **Composition:** A dense, fibrous protein meshwork (10–80 nm thick) lining the inner surface of the INM. Composed of **Type V Intermediate Filament proteins** termed **Nuclear Lamins** (Lamin A, Lamin B1, Lamin B2, and Lamin C). 
 
