@@ -630,7 +630,7 @@ Over evolutionary timescales, the relationship transformed from symbiosis to abs
 | **Ribosome Type**    | 70S                        | 70S                    | 70S                    |
 
 --- 
-# [[Nucleus]] 
+#Nucleus
 
 The cell nucleus is ==a membrane-bound organelle in eukaryotic cells that stores DNA and directs all cellular activities==
 ### 1. Structural Overview & Universality
