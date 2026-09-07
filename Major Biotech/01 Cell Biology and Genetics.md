@@ -609,13 +609,13 @@ graph TD
 ---
 ## 3. High-Yield Evidence for Endosymbiosis 
 Biotech exams frequently test the specific bacterial characteristics of these organelles. Use this checklist for reference: 
-- [ ] **Circular DNA:** Both organelles possess naked, circular DNA loops ($mtDNA$ and $cpDNA$) completely lacking histones, identical to bacterial genomes. 
-- [ ] **Ribosome Size:** They contain **70S ribosomes** (composed of 50S and 30S subunits), whereas the eukaryotic cytoplasm uses **80S ribosomes**. 
-- [ ] **Binary Fission:** Organelles replicate independently of the cell cycle using FtsZ-like proteins in a process akin to bacterial binary fission. 
-- [ ] **Double Membrane:** 
+-  **Circular DNA:** Both organelles possess naked, circular DNA loops ($mtDNA$ and $cpDNA$) completely lacking histones, identical to bacterial genomes. 
+-  **Ribosome Size:** They contain **70S ribosomes** (composed of 50S and 30S subunits), whereas the eukaryotic cytoplasm uses **80S ribosomes**. 
+-  **Binary Fission:** Organelles replicate independently of the cell cycle using FtsZ-like proteins in a process akin to bacterial binary fission. 
+-  **Double Membrane:** 
 	* **Inner membrane:** Belongs to the original bacterium (contains cardiolipin). 
 	* **Outer membrane:** Derived from the host cell's endocytic vesicle. 
-- [ ] **Antibiotic Sensitivity:** Organellar protein synthesis is inhibited by bacterial antibiotics (e.g., chloramphenicol, tetracycline) but unaffected by eukaryotic inhibitors (e.g., cycloheximide). 
+-  **Antibiotic Sensitivity:** Organellar protein synthesis is inhibited by bacterial antibiotics (e.g., chloramphenicol, tetracycline) but unaffected by eukaryotic inhibitors (e.g., cycloheximide). 
 
 ---
 ## 4. Why are they only "Semi"-Autonomous? 
