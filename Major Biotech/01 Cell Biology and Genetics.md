@@ -28,7 +28,7 @@ cssclasses:
 		Which means that all cells exist from pre existing cells.
 - So now cell theory can be stated as:
   1. All living organisms are composed of cells and products of cells.
-  2. All cells rise from pre-existing cells(==*omnis cellula e cellua*==)
+  2. All cells arise from pre-existing cells(==*omnis cellula e cellua*==)
 ## What is a Cell? 
 - A cell is the ==fundamental unit of life== that makes up all living organisms, from unicellular organisms like bacterial to multicellular organisms like humans.
 - Each cell can perform essential life processes independently or in coordination with other cells.
