@@ -217,7 +217,7 @@ The **Endoplasmic Reticulum (ER)** is a continuous membrane system of interconne
 ## Visual Reference
 
 
-> ![[Endoplasmic reticulum.png]]
+![[Endoplasmic reticulum.png]]
 
 - - -
 ## Types of Endoplasmic Reticulum
@@ -352,7 +352,7 @@ graph TD
 - **Function**: The primary metabolic processing zone where sequential carbohydrate modifications occur.
 ### 3. Trans-Golgi Network (TGN) 
 - **Location**: The concave exit face oriented toward the plasma membrane. 
-- **Function**: The final sorting station. It segregates proteins and lipids into distinct vesicle types based on molecular "zip-code" tags, sending them to their final cellular destinations. 
+- **Function**: The final sorting station. It segregates proteins and lipids into distinct vesicle types based on molecular "zip-code" tags, sending them to their final cellular destinations.
  ---
  
 ## Detailed Physiological Functions 
