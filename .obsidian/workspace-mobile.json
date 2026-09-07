@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "01 Cell Biology and Genetics"
             }
+          },
+          {
+            "id": "3cae6291dd412306",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Major Biotech/01 Cell Biology and Genetics.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "01 Cell Biology and Genetics"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,7 +130,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Major Biotech/01 Cell Biology and Genetics.md",
+            "file": "Major Biotech/01 Cell Biology and Genetics.pdf",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -136,7 +149,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Major Biotech/01 Cell Biology and Genetics.md",
+            "file": "Major Biotech/01 Cell Biology and Genetics.pdf",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -150,7 +163,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Major Biotech/01 Cell Biology and Genetics.md",
+            "file": "Major Biotech/01 Cell Biology and Genetics.pdf",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -165,8 +178,8 @@
         "state": {
           "type": "review-queue-list-view",
           "state": {},
-          "icon": "lucide-ghost",
-          "title": "review-queue-list-view"
+          "icon": "SpacedRepIcon",
+          "title": "Notes Review Queue"
         }
       },
       {
@@ -184,6 +197,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "mobile-pdf-exporter:Export preview PDF": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -196,11 +210,12 @@
       "fleurpdf-tint:FleurPDF tint": false
     }
   },
-  "active": "90151656ca8b063c",
+  "active": "3cae6291dd412306",
   "lastOpenFiles": [
+    "Major Biotech/01 Cell Biology and Genetics.md",
+    "Major Biotech/01 Cell Biology and Genetics.pdf",
     "Nuclear Pore Complex.jpg",
     "Dependencies/Nucleus.md",
-    "Major Biotech/01 Cell Biology and Genetics.md",
     "Excalidraw/Drawing 2026-09-08 01.03.55.excalidraw.md",
     "Dependencies/Mitochondria.md",
     "Dependencies/Carbohydrates.md",
