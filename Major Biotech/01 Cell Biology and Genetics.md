@@ -540,13 +540,6 @@ Defects in peroxisome function block VLCFA breakdown, halting myelin synthesis a
 
 ---
 
----
-tags:
-  - Biotech/Sem1
-  - CellBiology/Organelles
-  - Evolution/Cellular
----
-
 # Semi-Autonomous Organelles & Endosymbiotic Theory
 
 ## 1. Overview of Semi-Autonomy
@@ -639,12 +632,7 @@ Over evolutionary timescales, the relationship transformed from symbiosis to abs
 --- 
 # [[Nucleus]] 
 
-The cell nucleus is ==a membrane-bound organelle in eukaryotic cells that stores DNA and directs all cellular activities==.
-
->[!info] Info
->Everything about nucleus is in the link, click [[Nucleus]] to view.
-
-
+The cell nucleus is ==a membrane-bound organelle in eukaryotic cells that stores DNA and directs all cellular activities==
 ### 1. Structural Overview & Universality
 
 - **Definition:** The defining membrane-bound organelle of eukaryotic cells, acting as the repository of genetic information and the master control center for replication, transcription, and cellular metabolism. 
