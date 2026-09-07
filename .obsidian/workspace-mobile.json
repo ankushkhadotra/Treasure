@@ -168,9 +168,19 @@
           "icon": "lucide-ghost",
           "title": "review-queue-list-view"
         }
+      },
+      {
+        "id": "c43e6a1121aa7c7d",
+        "type": "leaf",
+        "state": {
+          "type": "fleurpdf-tint-view",
+          "state": {},
+          "icon": "palette",
+          "title": "FleurPDF tint"
+        }
       }
     ],
-    "currentTab": 0
+    "currentTab": 4
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,10 +192,11 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "obsidian-spaced-repetition:Review flashcards": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "fleurpdf-tint:FleurPDF tint": false
     }
   },
-  "active": "90151656ca8b063c",
+  "active": "c43e6a1121aa7c7d",
   "lastOpenFiles": [
     "Nuclear Pore Complex.jpg",
     "Dependencies/Nucleus.md",
