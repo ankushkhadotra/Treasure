@@ -308,7 +308,6 @@ The **Golgi Complex** (also called the Golgi Apparatus or Body) is a polarized, 
 
 ## Visual Reference
 
-> [!NOTE] Diagram of Golgi Complex
 ![[Golgi_complex_diagram.webp]]
 
 ---
