@@ -216,7 +216,7 @@ The **Endoplasmic Reticulum (ER)** is a continuous membrane system of interconne
 
 ## Visual Reference
 
-> [!NOTE] Diagram of ER
+
 > ![[Endoplasmic reticulum.png]]
 
 - - -
