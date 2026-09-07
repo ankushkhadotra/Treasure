@@ -708,42 +708,7 @@ The macromolecular gateway governing all nucleocytoplasmic traffic. 
 
 The NPC(Nuclear Pore Complex) is built from ~30 distinct proteins called **Nucleoporins (Nups)** arranged in a highly ordered, 8-fold symmetric structure across four functional rings: 
 
-
-
-
-```tikz
-\usetikzlibrary{shapes.geometric, arrows.meta, positioning}
-
-\begin{tikzpicture}[
-   node distance = 0.9cm,
-   compartment/.style = {rectangle, draw=black, fill=gray!10, rounded corners, minimum width=5cm, minimum height=0.7cm, font=\bfseries\sffamily, align=center},
-   filament/.style = {rectangle, draw=black, fill=blue!10, minimum width=5cm, minimum height=0.7cm, font=\sffamily, align=center},
-   ring/.style = {ellipse, draw=black, fill=orange!10, minimum width=6cm, minimum height=1cm, font=\sffamily, align=center},
-  arrow/.style = {-{Stealth[scale=1.2]}, thick, black}
-]
-
-   % Structural Nodes
-   \node (cyto)   [compartment] {CYTOPLASM};
-   \node (fil1)   [filament, below=of cyto] {8x Cytoplasmic Filaments};
-   \node (ring1)  [ring, below=of fil1] {\textbf{Cytoplasmic Ring}};
-  \node (ring2)  [ring, below=of ring1] {\textbf{Luminal / Spoke Ring} \\ {\small (Anchors to INM/ONM Fusion)}};
-  \node (ring3)  [ring, below=of ring2] {\textbf{Inner Scaffold Ring} \\ {\small (Lines Central FG-Nup Pore)}};
-  \node (ring4)  [ring, below=of ring3] {\textbf{Nuclear Ring}};
-  \node (fil2)   [filament, below=of ring4] {Nuclear Basket \\ {\small (8 Converging Filaments)}};
-  \node (nucleo) [compartment, below=of fil2] {NUCLEOPLASM};
-
-  % Connections
-   \draw [arrow] (cyto) -- (fil1);
-  \draw [arrow] (fil1) -- (ring1);
-  \draw [arrow] (ring1) -- (ring2);
-  \draw [arrow] (ring2) -- (ring3);
-  \draw [arrow] (ring3) -- (ring4);
-  \draw [arrow] (ring4) -- (fil2);
-  \draw [arrow] (fil2) -- (nucleo);
-
-\end{tikzpicture}
-```
-
+![[Nuclear Pore Complex.jpg]]
 
 1. **Cytoplasmic Ring:** Located on the cytoplasmic face; anchors **8 flexible cytoplasmic filaments** that catch cargo complexes moving toward the nucleus. 
 
