@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Major Biotech/01 Cell Biology and Genetics.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -196,7 +196,7 @@
       "fleurpdf-tint:FleurPDF tint": false
     }
   },
-  "active": "c43e6a1121aa7c7d",
+  "active": "90151656ca8b063c",
   "lastOpenFiles": [
     "Nuclear Pore Complex.jpg",
     "Dependencies/Nucleus.md",
