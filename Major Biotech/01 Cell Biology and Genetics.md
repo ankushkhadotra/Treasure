@@ -693,7 +693,7 @@ The nuclear envelope isolates genomic transcription and processing from cytoplas
 
 The macromolecular gateway governing all nucleocytoplasmic traffic. 
 
-### A. Quantitative & Structural Dimensions
+#### A. Quantitative & Structural Dimensions
 
 - **Molecular Mass:** ~125 Million Daltons (MDa) in vertebrates. 
 
@@ -704,7 +704,7 @@ The macromolecular gateway governing all nucleocytoplasmic traffic. 
 - **Abundance:** 1,000 to 5,000 pores per nucleus, directly proportional to the cell's metabolic, transcription, and translation activity. 
 
 
-### B. The 8-Fold Rotational Symmetry Rings
+#### B. The 8-Fold Rotational Symmetry Rings
 
 The NPC(Nuclear Pore Complex) is built from ~30 distinct proteins called **Nucleoporins (Nups)** arranged in a highly ordered, 8-fold symmetric structure across four functional rings: 
 
@@ -763,7 +763,7 @@ The NPC(Nuclear Pore Complex) is built from ~30 distinct proteins called **Nucle
 - **Active Mediated Transport:** Macromolecules (> 40 ![](data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==)−50![](data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==) kDa, such as RNA polymerases, histones, and fully formed ribosomal subunits) require specialized transport receptors (**Karyopherins**) and energy. 
 
 
-### A. The Ran-GTP / Ran-GDP Compartmentalization Gradient
+#### A. The Ran-GTP / Ran-GDP Compartmentalization Gradient
 
 Active transport is driven strictly by an asymmetric distribution of the small GTPase **Ran**: 
 
@@ -772,7 +772,7 @@ Active transport is driven strictly by an asymmetric distribution of the small G
 - **High Cytoplasmic [Ran-GDP]:** Maintained by **Ran-GAP** (GTPase Activating Protein), an enzyme located strictly on the cytoplasmic filaments of the NPC. Ran-GAP hydrolyzes Ran-GTP down to Ran-GDP. 
 
 
-### B. Step-by-Step Active Import Mechanism
+#### B. Step-by-Step Active Import Mechanism
 
 1. **Cargo Recognition:** A cytoplasmic protein destined for the nucleus displays a specific peptide sequence called a **Nuclear Localization Signal (NLS)** (e.g., classical basic sequences rich in Lysine and Arginine). 
 
@@ -785,7 +785,7 @@ Active transport is driven strictly by an asymmetric distribution of the small G
 5. **Receptor Recycling:** The Ran-GTP/Importin complex exits back through the NPC to the cytoplasm. Here, **Ran-GAP** hydrolyzes the GTP to GDP. Importin drops the Ran-GDP, leaving it free to bind another cargo molecule. 
 
 
-### C. Step-by-Step Active Export Mechanism
+#### C. Step-by-Step Active Export Mechanism
 
 1. **Cargo Recognition:** Nuclear cargo (like mRNA-protein complexes or tRNA) displays a **Nuclear Export Signal (NES)** (typically rich in hydrophobic Leucine residues). 
 
@@ -829,14 +829,14 @@ The largest, highly dynamic, non-membrane-bound sub-compartment of the nucleus. 
 
 DNA does not float freely; it is complexed with basic **Histone Proteins** to form chromatin. 
 
-### A. The Structural Hierarchy
+#### A. The Structural Hierarchy
 
 - **The Nucleosome Core:** The primary unit of compaction. Consists of **147 base pairs of DNA** wrapped exactly **1.65 times** around an octamer core of basic histone proteins (2 copies each of **H2A, H2B, H3, and H4**). 
 
 - **Chromatin Fiber:** Chromatosomes are packed into a dense 30-nm fiber stabilized by **linker histone H1**. 
 
 
-### B. Functional Categorization
+#### B. Functional Categorization
 
 - **Euchromatin:** 
     
