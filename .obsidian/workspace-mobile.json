@@ -34,21 +34,9 @@
               "icon": "lucide-file",
               "title": "01 Cell Biology and Genetics"
             }
-          },
-          {
-            "id": "83e2fe604ffa34b2",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Major Biotech/01 Cell Biology and Genetics-2.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "01 Cell Biology and Genetics-2"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -144,7 +132,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Major Biotech/01 Cell Biology and Genetics-2.pdf",
+            "file": "Major Biotech/01 Cell Biology and Genetics.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -163,7 +151,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Major Biotech/01 Cell Biology and Genetics-2.pdf",
+            "file": "Major Biotech/01 Cell Biology and Genetics.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -177,7 +165,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Major Biotech/01 Cell Biology and Genetics-2.pdf",
+            "file": "Major Biotech/01 Cell Biology and Genetics.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -224,10 +212,10 @@
       "fleurpdf-tint:FleurPDF tint": false
     }
   },
-  "active": "83e2fe604ffa34b2",
+  "active": "3cae6291dd412306",
   "lastOpenFiles": [
-    "Major Biotech/01 Cell Biology and Genetics.md",
     "Major Biotech/01 Cell Biology and Genetics-2.pdf",
+    "Major Biotech/01 Cell Biology and Genetics.md",
     "Major Biotech/01 Cell Biology and Genetics.pdf",
     "Major Biotech/images/Endoplasmic reticulum.png",
     "Major Biotech/images/Endoplasmic reticulum 1.png",
