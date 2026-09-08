@@ -316,32 +316,7 @@ The **Golgi Complex** (also called the Golgi Apparatus or Body) is a polarized, 
 
 The Golgi complex is highly polarized, meaning it has distinct entry, processing, and exit zones. Material flows sequentially through three main regions:
 
-```mermaid
-graph TD
-    %% Define Node Styles for clean look
-    classDef er style fill:#f9f,stroke:#333,stroke-width:2px;
-    classDef golgi style fill:#bbf,stroke:#333,stroke-width:2px;
-    classDef dest style fill:#bfb,stroke:#333,stroke-width:1px;
-
-    %% Flowchart Structure
-    ER["Endoplasmic Reticulum (ER)"]:::er
-    CGN["1. Cis-Golgi Network (CGN)"]:::golgi
-    Medial["2. Medial Cisternae"]:::golgi
-    TGN["3. Trans-Golgi Network (TGN)"]:::golgi
-    
-    Lysosomes["Lysosomes<br>(M6P Tagged)"]:::dest
-    CellMembrane["Cell Membrane<br>(Surface Maintenance)"]:::dest
-    Secretion["Extracellular Secretion<br>(Constitutive/Regulated)"]:::dest
-
-    %% Connections
-    ER --> |COPII Transport Vesicles| CGN
-    CGN --> Medial
-    Medial --> TGN
-    
-    TGN --> |Clathrin-Coated Vesicles| Lysosomes
-    TGN --> |Exocytosis| CellMembrane
-    TGN --> |Secretory Vesicles| Secretion
-```
+![[Structural Polarity of golgi complex.png]]
 
 
 #### 1. Cis-Golgi Network (CGN) 
@@ -387,25 +362,8 @@ Biologists use two main theories to explain how materials actually move *through
 
  --- 
 ### Visual Reference
-```mermaid
-graph LR
-    %% Define Node Styles
-    classDef origin style fill:#bbf,stroke:#333,stroke-width:2px;
-    classDef pathway style fill:#fde3a7,stroke:#333,stroke-width:1px;
-    classDef lyso style fill:#ff9999,stroke:#333,stroke-width:2px;
 
-    %% Elements
-    TGN["Trans-Golgi Network"]:::origin
-    Endo["Endocytic Pathway<br>(Extracellular Cargo)"]:::pathway
-    Auto["Autophagic Pathway<br>(Damaged Organelles)"]:::pathway
-    Lyso["Lysosome<br>(Acid Hydrolases / pH ~4.5-5.0)"]:::lyso
-
-    %% Flow
-    TGN --> |M6P / Clathrin Vesicles| Lyso
-    Endo --> |Vesicle Fusion| Lyso
-    Auto --> |Autophagosome Fusion| Lyso
-```
-
+![[Visual Reference of Lysosome.png]]
 ---
 
 ### Biochemical Microenvironment and Homeostasis
@@ -465,34 +423,9 @@ When a single gene mutation causes one specific acid hydrolase enzyme to be miss
 ---
 ### Visual Reference
 
-
-
-```mermaid
-%%{init: {'flowchart': {'htmlLabels': true, 'useMaxWidth': false}}}%%
-graph TD
-    %% Style Definitions
-    classDef origin fill:#fde3a7,stroke:#333,stroke-width:1px;
-    classDef core fill:#dfc2f2,stroke:#333,stroke-width:2px;
-    classDef byproduct fill:#ffb3b3,stroke:#333,stroke-width:1px;
-    classDef output fill:#bfb,stroke:#333,stroke-width:1px;
-
-    %% Main Centered Flowchart Structure
-    Inputs["Fatty Acids / Toxins / Purines<br>(Substrate Entry)"]:::origin
-    Peroxisome["Peroxisome Core (Oxidases)<br>(Oxidation Phase)"]:::core
-    H2O2["Hydrogen Peroxide (H₂O₂)<br>⚠️ Toxic Reaction Intermediate<br>(Toxin Accumulation)"]:::byproduct
-    Catalase["Catalase Enzyme<br>(Detoxification Phase)"]:::core
-    Outputs["Acetyl-CoA / Water + Oxygen<br>(Final Output)"]:::output
-
-    %% Core Process Pipeline
-    Inputs --> Peroxisome
-    Peroxisome --> H2O2
-    H2O2 --> Catalase
-    Catalase --> Outputs
-```
-
+![[Structure-of-Peroxisomes.webp|700]]
 
 ---
-
 ### Biogenesis: How Peroxisomes Form
 Unlike lysosomes (which bud directly from the Golgi complex), peroxisomes are self-replicating organelles with a unique biogenesis pathway:
 - **De Novo Formation**: They can arise from the budding of specialized precursor vesicles derived from both the **[[Endoplasmic Reticulum (ER)]]** and **[[Mitochondria]]**.
@@ -500,7 +433,6 @@ Unlike lysosomes (which bud directly from the Golgi complex), peroxisomes are se
 - **Protein Import (PTS)**: Peroxisomal matrix proteins are synthesized on free cytosolic ribosomes. They carry a specific **Peroxisomal Targeting Signal (PTS1 or PTS2)** sequence that is recognized by soluble receptor proteins called **Peroxins (PEX)**, which ferry them directly through translocation channels into the peroxisome.
 
 ---
-
 ### Core Biochemical Functions
 
 #### 1. Hydrogen Peroxide ($H_2O_2$) Metabolism
@@ -539,13 +471,7 @@ Defects in peroxisome function block VLCFA breakdown, halting myelin synthesis a
 ---
 ## Semi-Autonomous Organelles & Endosymbiotic Theory
 
-<<<<<<< HEAD
 ### 1. Overview of Semi-Autonomy
-=======
-# Semi-Autonomous Organelles & Endosymbiotic Theory
-
-## 1. Overview of Semi-Autonomy
->>>>>>> origin/main
 **Semi-autonomous organelles** are cellular structures that contain their own genetic material and can perform independent functions, yet still rely on the host cell nucleus for survival. 
 * **Key Examples:** [[Mitochondria]] and [[Chloroplasts]].
 * **The Core Paradox:** They contain their own machinery but cannot survive outside the host cell today.
@@ -633,11 +559,7 @@ Over evolutionary timescales, the relationship transformed from symbiosis to abs
 | **Ribosome Type**    | 70S                        | 70S                    | 70S                    |
 
 --- 
-<<<<<<< HEAD
-## [[Nucleus]] 
-=======
 ## Nucleus
->>>>>>> origin/main
 
 The cell nucleus is ==a membrane-bound organelle in eukaryotic cells that stores DNA and directs all cellular activities==
 ### 1. Structural Overview & Universality
@@ -649,15 +571,6 @@ The cell nucleus is ==a membrane-bound organelle in eukaryotic cells that store
     - **Enucleated Eukaryotic Cells:** Mature mammalian erythrocytes (RBCs) and plant phloem sieve tube elements completely lack a nucleus to optimize spatial efficiency for transport functions. 
     
     - **Syncytium / Coenocyte:** Multinucleated states arising from cell fusion (e.g., skeletal muscle fibers) or repeated nuclear divisions without cytokinesis (e.g., _Plasmodium_, tapetal cells). 
-
-<<<<<<< HEAD
----
-# Part 2: Genetics
-	````
-	```
-=======
-
----
 
 ### 2. The Nuclear Envelope (NE) & Nuclear Lamina
 
@@ -802,7 +715,6 @@ The largest, highly dynamic, non-membrane-bound sub-compartment of the nucleus. 
 - **Nuclear Matrix / Nucleoskeleton:** A non-chromatin structural network of proteins (mainly lamins and actin-like filaments) that remains after treating a nucleus with high-salt detergents and DNase. It serves as a scaffolding dock that fixes the positions of active DNA replication forks and transcription factories. 
 
 ---
-
 ### 7. Chromatin Structural States
 
 DNA does not float freely; it is complexed with basic **Histone Proteins** to form chromatin. 
@@ -836,3 +748,178 @@ DNA does not float freely; it is complexed with basic **Histone Proteins** to fo
 	    - **_Constitutive Heterochromatin**:_ Permanently condensed and genetically inert across all cell types (e.g., centromeric and telomeric regions).  
 		* **_Facultative Heterochromatin**:_ Genes that are specifically silenced in certain cell lineages but may be de-condensed and activated in other cell types or developmental stages.
 
+---
+# Part 2: Genetics
+
+##  1. Historical Overview & Foundational Concepts
+
+### The Mendelian Era
+* **Gregor Johann Mendel (1822–1884):** Performed breakthrough hybridization work on **Garden Pea (*Pisum sativum*)** between **1856 and 1863**.
+* **Key Methodology:** He applied statistical analysis and mathematical logic to biological systems, tracking discrete, contrasting traits rather than continuous variations.
+* **The Post-Mendel Gap:** His paper *Experiments on Plant Hybridization* (1866) was ignored until its **independent rediscovery in 1900** by three scientists:
+  1. **Hugo de Vries** (Mutation theory proponent)
+  2. **Carl Correns** (Formulated Mendel's principles into concrete laws)
+  3. **Erich von Tschermak** (Applied breeding to modern agriculture)
+
+###  Advanced Genetics Vocabulary & Symbols
+* **Factor / Gene:** The physical and functional unit of inheritance that carries information for a specific trait.
+* **Allele / Allelomorph:** Alternative structural forms of a single gene that occupy the identical locus on homologous chromosomes.
+* **Locus:** The precise spatial location or coordinate of a gene along a chromosome thread.
+* **Wild Type vs. Mutant:** The most frequently occurring natural allele is designated as the wild type ($+$); alternative modified versions are mutant alleles.
+* **Genotype:** The specific allelic constitution of an organism (e.g., $YY$, $Yy$, $yy$).
+* **Phenotype:** The observable physical or biochemical manifestation of a genotype under a given environment.
+* **Homozygous (Pure):** Possessing identical alleles at a given locus ($TT$ or $tt$).
+* **Heterozygous (Hybrid):** Possessing distinct, non-identical alleles at a given locus ($Tt$).
+* **Hemizygous:** Presenting only a single copy of a gene in a diploid organism (e.g., X-linked genes in human XY males).
+* **Allelomorphic Series:** The existence of more than two alleles governing a single locus across a population (e.g., ABO blood groups, Drosophila eye color series $w, w^a, w^{bl}$).
+* **Isoalleles:** Alleles that produce identical phenotypes under normal baseline conditions but reveal minor expression differences under physiological, biochemical, or thermal stress.
+* **Pseudogene:** A non-functional genomic sequence that retains sequence homology to an active gene but has lost its coding ability due to structural mutations.
+* **Phenocopy:** An environmentally induced, non-heritable variation that closely mimics a known genetic mutant phenotype.
+* **Penetrance:** The statistical percentage of individuals with a given genotype who express its corresponding phenotype.
+* **Expressivity:** The degree or intensity to which a penetrant genotype manifests phenotypically in an individual.
+
+### Advanced Genetic Nomenclature Systems
+1. **Wild Type Designation ($+$):** Instead of simple capital/lowercase letters, advanced genetics references the natural *wild-type* standard. 
+   - A mutant allele is written as a lowercase letter code (e.g., $vg$ for vestigial wings in Drosophila).
+   - The corresponding wild-type allele is written as $vg^+$.
+2. **Slash Notation for Linked vs. Unlinked Genes:**
+   - **$A/a \cdot B/b$**: The dot ($\cdot$) explicitly designates that Gene A and Gene B reside on **different chromosomes** (unlinked).
+   - **$AB / ab$**: The slash separator indicates that alleles $A$ and $B$ are **cis-linked** on the same physical chromosome thread.
+> [!TIP] Shorthand Notation: The Blank Slot (`_`)
+> In advanced genetic notation, a blank space or underscore (e.g., **$A\_$**) means **"any allele can go here"**. 
+> - Because the first allele is **dominant**, it completely masks whatever follows it.
+> - **$A\_$** is simply a faster way of writing: **$AA$ OR $Aa$**
+> - **$\_\_ee$** means it doesn't matter what the first gene pair looks like ($BBee$, $Bbee$, or $bbee$); the homozygous recessive $ee$ completely controls the final outcome.
+
+---
+
+##  2. Chromosomal Mechanics of Mendelian Principles
+
+Mendel deduced his laws entirely from statistical distribution data. Modern biotechnology grounds these laws in structural cell biology, specifically the behavior of chromosomes during **Meiosis I**.
+
+```text
+         LAW OF SEGREGATION                  LAW OF INDEPENDENT ASSORTMENT
+         
+       Homologous Chromosomes                     Non-Homologous Pairs
+            (Anaphase I)                   Orient Independently at Metaphase I
+               [T] [t]                           [R][r]           [Y][y]
+              /       \                           /   \           /   \
+             v         v                         v     v         v     v
+          Gamete1   Gamete2                    Alternative alignments yield 
+            [T]       [t]                     equal chances of: RY, Ry, rY, ry
+```
+
+### I. The Law of Dominance
+* **Principle:** In a heterozygous state ($F_1$), one allele suppresses the phenotypic expression of its contrasting partner allele. 
+* **Dominant Allele:** The allele that manifests its phenotype in both homozygous and heterozygous states.
+* **Recessive Allele:** The allele whose expression is masked in a heterozygote and only appears when homozygous.
+
+### II. The Law of Segregation (Purity of Gametes)
+* **Biochemical Definition:** The separation of contrasting functional alleles into isolated, haploid cellular containers (gametes).
+* **Cytological Verification:** During **Anaphase I**, the synaptonemal complex breaks down, and homologous chromosomes move toward opposite spindle poles. Consequently, sister chromatids carry their specific allele to distinct gametes.
+* **The Probability Proof (Monohybrid Product):** 
+  The $3:1$ phenotypic ratio is a direct consequence of random gamete fusion. When a heterozygote $Tt$ selfs, the distribution of gamete pairings is given by the algebraic expansion:
+$$\left(\frac{1}{2}T + \frac{1}{2}t\right)^2 = \frac{1}{4}TT + \frac{2}{4}Tt + \frac{1}{4}tt$$
+
+#### F₂ Monohybrid Ratios
+* **Phenotypic Ratio:** `3 : 1` (3 Tall : 1 Dwarf)
+* **Genotypic Ratio:** `1 : 2 : 1` ($1\ TT\ :\ 2\ Tt\ :\ 1\ tt$)
+
+### III. The Law of Independent Assortment
+* **Biochemical Definition:** The random, uncoordinated distribution of distinct allele pairs into gametes relative to other gene loci.
+* **Cytological Verification:** During **Metaphase I**, different pairs of homologous chromosomes line up along the equatorial plate independently of one another. The maternal or paternal origin of one chromosome pair does not dictate the orientation of any other pair.
+* **Statistical Application (The Forked-Line Method):** 
+  For multi-hybrid crosses, bypass Punnett squares by multiplying independent monohybrid probabilities.
+  - Phenotypic distribution of an $F_2$ dihybrid cross:
+$$\text{Height cross } \left(\frac{3}{4}\text{ Tall} + \frac{1}{4}\text{ Dwarf}\right) \times \text{Color cross } \left(\frac{3}{4}\text{ Yellow} + \frac{1}{4}\text{ Green}\right)$$
+$$\rightarrow \frac{9}{16}\text{ Tall Yellow} : \frac{3}{16}\text{ Tall Green} : \frac{3}{16}\text{ Dwarf Yellow} : \frac{1}{16}\text{ Dwarf Green}$$
+* **Limitation:** This law holds true only for genes located on different chromosomes or spaced far apart on the same chromosome (independent of **Genetic Linkage**).
+
+#### F₂ Dihybrid Ratios
+* **Phenotypic Ratio:** `9 : 3 : 3 : 1`
+  - $9/16$ Round, Yellow ($R\_Y\_$)
+  - $3/16$ Round, Green ($R\_yy$)
+  - $3/16$ Wrinkled, Yellow ($rrY\_$)
+  - $1/16$ Wrinkled, Green ($rryy$)
+* **Genotypic Ratio:** `1:2:1:2:4:2:1:2:1`
+
+---
+
+##  3. Molecular Architecture of Epistasis (Intergenic Interactions)
+
+* **Epistasis Definition:** A form of non-allelic inter-genic interaction where an allele at one genetic locus **masks, suppresses, or modifies** the phenotypic expression of an allele at a completely different, independent locus.
+* **Epistatic Gene:** The gene/allele that exerts the masking effect.
+* **Hypostatic Gene:** The gene/allele whose expression is overwritten or hidden.
+
+### Types of Epistasis & Biochemical Mechanisms
+
+Epistasis occurs when proteins coded by genes at different loci function sequentially within a single biochemical pathway. If one upstream enzyme fails, it alters or halts the downstream production of subsequent pigments or structural metabolites. 
+
+The standard Mendelian dihybrid phenotypic ratio of `9:3:3:1` is modified depending on how these pathways intersect:
+
+| Type of Epistasis                             | F₂ Modified Ratio | Molecular/Biochemical Basis                                                                                                                                                                                  | Classic Biological Example                                         |
+| :-------------------------------------------- | :---------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------- |
+| **Dominant Epistasis**                        | **`12 : 3 : 1`**  | A single dominant allele at the epistatic locus ($A\_$) fully prevents expression at the hypostatic locus ($B/b$).                                                                                           | Fruit color in Summer Squash (*Cucurbita pepo*)                    |
+| **Recessive Epistasis** (Cryptomere)          | **`9 : 3 : 4`**   | Homozygous recessive alleles at the epistatic locus ($aa$) override any alleles at the hypostatic locus ($B/b$).                                                                                             | Coat color in Labrador Retrievers / Mice                           |
+| **Duplicate Recessive** (Complementary Genes) | **`9 : 7`**       | Functional dominant alleles at **both** distinct loci ($A\_B\_$) are strictly required to produce a single final phenotype. If either locus is homozygous recessive ($aa$ or $bb$), the pathway breaks down. | Flower color in Sweet Pea (*Lathyrus odoratus*)                    |
+| **Duplicate Dominant**                        | **`15 : 1`**      | A dominant allele at **either** locus ($A\_$ or $B\_$) is sufficient to catalyze the biochemical step and generate the dominant phenotype.                                                                   | Seed capsule shape in Shepherd's Purse (*Capsella bursa-pastoris*) |
+| **Dominant Inhibitory**                       | **`13 : 3`**      | A dominant allele at one locus acts as an explicit biochemical inhibitor ($I\_$), completely shutting down the functional product of another dominant gene ($A\_$).                                          | Feather color in Chickens (Leghorn vs. Wyandotte)                  |
+
+---
+
+###  Deep Dive Biochemical Cascades
+
+#### I. Recessive Epistasis (9:3:4) — Labrador Coat Pigmentation
+* **Gene B:** Determines pigment density (Black vs. Brown).
+  - $B\_$ = Black pigment
+  - $bb$ = Brown pigment (Chocolate)
+* **Gene E:** Determines pigment deposition in the fur (Epistatic Locus).
+  - $E\_$ = Allows pigment deposition.
+  - $ee$ = **No pigment deposition** $\rightarrow$ Yellow coat, regardless of $B/b$ status.
+
+$$\text{Colorless Precursor} \xrightarrow{\text{Gene E (Enzyme E)}} \text{Eumelanin Intermediate (Brown)} \xrightarrow{\text{Gene B (Enzyme B)}} \text{Deposited Pigment (Black)}$$
+
+* **Genotype-to-Phenotype Matrix:**
+  - $9/16$ **$B\_E\_$**: Black Labrador
+  - $3/16$ **$bbE\_$**: Chocolate Labrador
+  - $4/16$ **$\_\_ee$**: Yellow Labrador ($3\ B\_ee + 1\ bbee$)
+
+#### II. Dominant Epistasis (12:3:1) — Summer Squash Fruit Color
+* **Gene A:** Upstream regulatory inhibitor.
+* **Gene B:** Downstream functional enzyme converting green substrate to yellow.
+
+$$\text{Green Substrate} \xrightarrow{\text{Enzyme B}} \text{Yellow Product}$$
+$$\text{[Gene A acts as an upstream inhibitor that inactivates Enzyme B]}$$
+
+* **Mechanistic Breakdown:**
+  - **$A\_ \_\_$**: The inhibitor is active, leaving the squash **White** ($12/16$).
+  - **$aa B\_$**: No inhibitor is produced, and Enzyme B is active, turning the fruit **Yellow** ($3/16$).
+  - **$aa bb$**: No inhibitor is produced, but Enzyme B is defective, leaving the fruit **Green** ($1/16$).
+
+#### III. Duplicate Recessive Epistasis (9:7) — Flower Color in *Lathyrus odoratus*
+
+$$\text{Colorless Chromogen} \xrightarrow{\text{Gene A (Enzyme A)}} \text{Colorless Intermediate} \xrightarrow{\text{Gene B (Enzyme B)}} \text{Anthocyanin (Purple Pigment)}$$
+
+* **Mechanistic Breakdown:**
+  - A functional **$A\_B\_$** genotype yields active forms of both sequential enzymes, producing **Purple** flowers ($9/16$).
+  - Any homozygous recessive pair (**$aa\_\_$**, **$\_\_bb$**, or **$aabb$**) breaks the metabolic chain, leaving the flower **White** ($7/16$).
+
+#### IV. Duplicate Dominant Epistasis (15:1) — Seed Capsule in *Capsella*
+
+$$\text{Precursor Metabolite} \xrightarrow{\text{Enzyme A OR Enzyme B}} \text{Triangular Capsule Structural Protein}$$
+
+* **Mechanistic Breakdown:**
+  - Any genotype containing at least one dominant allele (**$A\_\_\_$** or **$\_\_B\_$**) yields functional enzymes capable of producing a **Triangular** capsule ($15/16$).
+  - A **$aabb$** genotype lacks functional enzymes entirely, producing an **Ovoid** capsule ($1/16$).
+
+---
+
+###  Quick-Reference Cheat Sheet for Exams
+When analyzing an unexpected dihybrid data pool on an exam, match your sample size fractions out of $16$ to these exact epistasis categories:
+
+$$\text{12:3:1} \rightarrow \text{Dominant Epistasis}$$
+$$\text{9:3:4} \rightarrow \text{Recessive Epistasis}$$
+$$\text{9:7} \rightarrow \text{Duplicate Recessive Epistasis}$$
+$$\text{15:1} \rightarrow \text{Duplicate Dominant Epistasis}$$
+$$\text{13:3} \rightarrow \text{Dominant Inhibitory Epistasis}$$
+---

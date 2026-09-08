@@ -10,7 +10,7 @@ aliases:
 cssclasses:
   - syllabus-note
 ---
-
+w
 # State, Citizenship and Rights in India (UMDPST-105)
 
 %% University of Jammu — Political Science at FYUP — CBCS as per NEP-2020 — Multidisciplinary Course (MDC), Semester-I — For examinations Dec 2025, 2026 & 2027 %%
