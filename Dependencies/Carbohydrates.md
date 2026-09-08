@@ -2,7 +2,23 @@
 - Carbohydrate  ----------> Energy + Structure 
 - Protein & Nucleic acid ------------> Informational molecule
 - DNA  -----Transcription-----> mRNA -------Translation------> ==Protein== (perform all functions in the body.)
-## 1.1.1 <u>Types of Carbohydrates</u>
+
+## Carbohydrate Metabolism
+Breakdown of carbohydrates during biochemical reactions results in the production of energy(ATP).
+
+> [!attention] 10 different ways in the carbohydrate metabolism
+> 1. [[Glycogenesis]]
+> 2. [[Glyconeolysis]]
+> 3. [[Glycolysis]]
+> 4. [[Gluconeogenesis]]
+> 5. [[The Link Reaction]]
+> 6. [[Kreb's Cycle]]
+> 7. [[Pentose Phosphate Pathway]]
+> 8. [[Urinic acid pathway]]
+> 9. [[Dicarboxylic Acid Shuttle]]
+> 10. [[Glyoxylic acid pathway]]
+
+## 1.1.1 Types of Carbohydrates
 
 1. On the basis of unit formed after hydrolysis
      1. Monosaccharides(==Sweet sugar==)

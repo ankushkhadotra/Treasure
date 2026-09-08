@@ -13,7 +13,8 @@ aliases:
 cssclasses:
   - unit-01
 ---
-# Cell Theory 
+# Part 1: Cell Biology
+## Cell Theory 
 #cell-theory 
 
 - Fundamental scientific theory of biology according to which [cells](https://www.britannica.com/science/cell-biology) are held to be the basic unit of all living [tissues](https://www.britannica.com/science/tissue).
@@ -152,26 +153,26 @@ cssclasses:
 
 ![[eukaryotic-cell.jpg|592]]
 
-# Cell Wall 
+## Cell Wall 
 - Present in plants, fungi, and algae. Absent in animas.
-## Composition:
+### Composition:
 - **Plants**: [[Cellulose]], [[Hemicellulose]], pectin, and proteins.
 - **Fungi**: [[Chitin]]
-## Layers:
+### Layers:
 - **Middle Lamella**: Outermost layer. Made of calcium and magnesium pectate. Glues neighbouring cells together.
 - **Primary Wall**: Thin, flexible, extensible layer formed in growing cells.
 - **Secondary Wall**: Thick, rigid layer formed inside the primary wall when the cell stops growing. Contains [[Lignin]] in woody tissues.
-## Function: 
+### Function: 
 - Provides mechanical strength
 - Maintains shape of cell
 - Prevents osmotic bursting
-## Connection:
+### Connection:
   Traversed by [[Plasmodesmata]] for intercellular transport.
 
 - - -
-# Cell Membrane (Plasma Membrane)
+## Cell Membrane (Plasma Membrane)
 
-## Models: 
+### Models: 
 1. **Fluid Mosaic Model**:
 		- Given by **Singer and Nicolson** in 1972.
 		- It is **standard** and  most widely accepted.
@@ -183,7 +184,7 @@ cssclasses:
 4. **Danielli-Davson Model (1935)**:
 		- Suggested a "protein-lipid-protein" sandwich model, placing static layers of globular proteins on the outer and inner surfaces of a lipid bilayer.
 
-## Key Components of the Fluid Mosaic Model:
+### Key Components of the Fluid Mosaic Model:
 
 > [!INFO] Fluid Mosaic Definition
 > - **Fluid**: Phospholipids and proteins can move laterally within the layer.
@@ -195,13 +196,13 @@ cssclasses:
 - **[[Cholesterol]]**: Tucked between lipid tails to buffer fluidity, preventing the membrane from becoming too rigid in the cold or too fluid in the heat. 
 - **Glycoproteins & Glycolipids**: Carbohydrate chains facing the extracellular space, vital for cell recognition and immune response.
 - **Carbohydrates**: Glycoproteins and glycolipids on the outer surface. Crucial for [[Cell Recognition]].
-## External Resources
+### External Resources
 
 - [Bio Ninja Cell Models](http://bioninja.com.au)
 
 ![[cell-membrane.webp]]
 
-## Functions Of Cell Membrane
+### Functions Of Cell Membrane
 
 - **Regulating Transport:** The membrane is selectively permeable, meaning it lets small or nonpolar molecules (like oxygen) pass freely while using special protein channels and pumps to move larger or charged molecules (like nutrients and ions) in and out.
 - **Providing Protection:** It acts as a physical barrier that shields the cell's internal components from toxic substances or harsh shifts in the outside environment.
@@ -210,25 +211,25 @@ cssclasses:
 - **Providing Structural Support:** It anchors the cell's internal skeleton (cytoskeleton) to help maintain the cell's shape and flexibility.
 
 - - -
-# Endoplasmic Reticulum (ER)
+## Endoplasmic Reticulum (ER)
 
 The **Endoplasmic Reticulum (ER)** is a continuous membrane system of interconnected flattened sacs and tubules that plays a central role in biosynthesis, modification, and transport of cellular materials. It is physically continuous with the outer nuclear membrane.
 
-## Visual Reference
+### Visual Reference
 
 > [!NOTE] Diagram of ER
 > ![[Endoplasmic reticulum.png]]
 
 - - -
-## Types of Endoplasmic Reticulum
+### Types of Endoplasmic Reticulum
 
-### 1. Rough Endoplasmic Reticulum (RER) 
+#### 1. Rough Endoplasmic Reticulum (RER) 
 - **Structure**: Studded with dense populations of **[[Ribosomes]]** on its outer cytoplasmic surface. It consists primarily of flattened sacs called **cisternae**. 
 - **Key Functions**: 
 	- **Protein Synthesis**: Synthesizes proteins destined for membranes, lysosomes, or extracellular secretion. 
 	- **Folding & Quality Control**: Chaperone proteins inside the lumen assist in folding nascent polypeptide chains into their functional 3D structures. 
 	- **Initial Glycosylation**: Attaches oligosaccharide chains to proteins to form glycoproteins.
-### 2. Smooth Endoplasmic Reticulum (SER) 
+#### 2. Smooth Endoplasmic Reticulum (SER) 
 - **Structure**: Lacks bound ribosomes, giving it a smooth appearance under electron microscopy. It forms a more interconnected network of **tubules**. 
 - **Key Functions**: 
 	- **Lipid & Steroid Synthesis**: Production of phospholipids, cholesterol, and steroid hormones (e.g., estrogen, testosterone). 
@@ -236,17 +237,17 @@ The **Endoplasmic Reticulum (ER)** is a continuous membrane system of interconne
 	- **Calcium Storage**: Acts as a reservoir for $Ca^{2+}$ ions. In muscle cells, a specialized form called the **sarcoplasmic reticulum** releases these ions to trigger contraction.
 
 - - -
-## Structural Components & Microenvironment 
+### Structural Components & Microenvironment 
 - **Lumen (Cisternal Space)**: The internal space enclosed by the ER membrane. It maintains a distinct biochemical environment completely isolated from the surrounding cytoplasm. 
 - **Cisternae**: Large, flattened membranous discs that optimize surface area for membrane-bound enzymes and synthetic activity. 
 - **Translocons**: Multi-protein complexes embedded in the RER membrane that act as channels to move growing polypeptide chains from the ribosome into the lumen.
 
 - - -
-## Detailed Functional Breakdown
+### Detailed Functional Breakdown
 
 The Endoplasmic Reticulum (ER) operates as the primary manufacturing, quality control, and metabolic hub of the cell. Below is the detailed breakdown of its major physiological functions.
 
-### 1. Protein Biosynthesis and Processing (Rough ER)
+#### 1. Protein Biosynthesis and Processing (Rough ER)
 The Rough ER is the entry point of the cell's **[[Endomembrane System]]**, specialized for handling proteins destined for non-cytoplasmic locations.
 
 - **Co-Translational Translocation**: 
@@ -261,7 +262,7 @@ The Rough ER is the entry point of the cell's **[[Endomembrane System]]**, speci
   - Enzymes attach a pre-assembled, 14-sugar oligosaccharide chain to specific asparagine residues on the protein. 
   - This initial modification tags the protein for its eventual destinations and aids in folding recognition.
 
-### 2. Lipid and Biomolecule Synthesis (Smooth ER)
+#### 2. Lipid and Biomolecule Synthesis (Smooth ER)
 Because lipids are highly hydrophobic, they cannot float freely in the cytoplasm and must be manufactured directly into existing membranes.
 
 - **Membrane Phospholipid Production**: 
@@ -271,7 +272,7 @@ Because lipids are highly hydrophobic, they cannot float freely in the cytoplasm
   - The Smooth ER processes cholesterol into steroid hormones. 
   - Consequently, cells in the adrenal glands, testes, and ovaries are densely packed with Smooth ER networks to support high hormone output.
 
-### 3. Metabolic Detoxification (Smooth ER)
+#### 3. Metabolic Detoxification (Smooth ER)
 The Smooth ER protects the cell from internal waste products and external chemical threats.
 
 - **Cytochrome P450 Enzyme System**: 
@@ -281,7 +282,7 @@ The Smooth ER protects the cell from internal waste products and external chemic
   - Making these toxic molecules polar and water-soluble allows the body to easily flush them out through urine or bile. 
   - Frequent exposure to certain toxins (like alcohol or barbiturates) triggers the rapid proliferation of Smooth ER in liver cells, increasing tolerance.
 
-### 4. Intracellular Calcium Homeostasis (Smooth ER)
+#### 4. Intracellular Calcium Homeostasis (Smooth ER)
 The Smooth ER acts as a highly controlled gatekeeper for internal calcium ions ($Ca^{2+}$), keeping cytoplasmic levels low to prevent accidental cellular triggers.
 
 - **Active Sequestration**: 
@@ -290,7 +291,7 @@ The Smooth ER acts as a highly controlled gatekeeper for internal calcium ions (
   - Upon receiving specific molecular signals (such as **$IP_3$** signaling), localized calcium channels snap open, flooding the cytoplasm with calcium.
   - In muscle cells, this specialized calcium vault is called the **[[Sarcoplasmic Reticulum]]**. Its sudden release of calcium directly binds to troponin, initiating muscle contraction.
 
-### 5. Intracellular Cargo Transport
+#### 5. Intracellular Cargo Transport
 Once lipids and proteins have been successfully synthesized and audited, they must be safely shipped out.
 
 - **Vesicular Budding**: 
@@ -299,21 +300,20 @@ Once lipids and proteins have been successfully synthesized and audited, they mu
 - **COPII Coat Targeting**: 
   - The budding vesicles are coated in a protein matrix called **COPII**, which serves as a zip-code tag directing the vesicle straight to the **[[Golgi Apparatus]]** for further sorting and refining.
 - - -
-# Golgi Complex (Golgi Apparatus)
+## Golgi Complex (Golgi Apparatus)
 
-## Overview
+### Overview
 The **Golgi Complex** (also called the Golgi Apparatus or Body) is a polarized, membrane-bound organelle composed of a series of flattened, stacked pouches called **cisternae**. Operating as the cellular "post office," it is responsible for modifying, sorting, and packaging proteins and lipids received from the **[[Endoplasmic Reticulum (ER)]]** for secretion or delivery to other organelles.
 
 ---
-
-## Visual Reference
+### Visual Reference
 
 > [!NOTE] Diagram of Golgi Complex
 ![[Golgi_complex_diagram.webp]]
 
 ---
 
-## Structural Polarity and Organization
+### Structural Polarity and Organization
 
 The Golgi complex is highly polarized, meaning it has distinct entry, processing, and exit zones. Material flows sequentially through three main regions:
 
@@ -345,48 +345,49 @@ graph TD
 ```
 
 
-### 1. Cis-Golgi Network (CGN) 
+#### 1. Cis-Golgi Network (CGN) 
 - **Location**: The convex entry face physically oriented toward the Rough ER. 
 - **Function**: Receives transport vesicles carrying newly synthesized proteins and lipids from the ER. It acts as a quality control sorting station to send escaped ER resident proteins back to the ER via **COPII-coated vesicles**. 
-### 2. Medial Cisternae 
+#### 2. Medial Cisternae 
 - **Location**: The central sacs making up the body of the Golgi stack. 
 - **Function**: The primary metabolic processing zone where sequential carbohydrate modifications occur.
-### 3. Trans-Golgi Network (TGN) 
+#### 3. Trans-Golgi Network (TGN) 
 - **Location**: The concave exit face oriented toward the plasma membrane. 
 - **Function**: The final sorting station. It segregates proteins and lipids into distinct vesicle types based on molecular "zip-code" tags, sending them to their final cellular destinations. 
  ---
  
-## Detailed Physiological Functions 
-### 1. Post-Translational Modification (PTM) 
+### Detailed Physiological Functions 
+#### 1. Post-Translational Modification (PTM) 
 Proteins arrive from the ER unfinished. The Golgi contains localized, membrane-bound enzymes that alter protein structure in a precise, assembly-line fashion: 
 - **Glycoprotein Remodeling**: Converts simple core oligosaccharides added in the ER into highly complex branched structures (N-linked glycosylation) and attaches sugars to hydroxyl groups on serine or threonine residues (O-linked glycosylation). 
 - **Sulfation**: Attaches sulfate groups to tyrosine residues or carbohydrate chains of proteins, which is critical for their eventual binding activity outside the cell. 
 - **Phosphorylation**: Phosphorates specific residues. For example, adding **Mannose-6-Phosphate (M6P)** tags proteins specifically for delivery to lysosomes. 
-### 2. Lipid and Polysaccharide Synthesis 
+#### 2. Lipid and Polysaccharide Synthesis 
 While the ER makes core lipids, the Golgi synthesizes complex macromolecules: 
 - **Sphingomyelin & Glycolipids**: Converts ceramide (imported from the ER) into sphingomyelin and various glycolipids found in the plasma membrane. 
 - **Plant Cell Wall Matrix**: In plant cells, the Golgi synthesizes non-cellulosic structural polysaccharides like **pectins** and **hemicelluloses**, which are shipped outward to construct the growing cell wall. 
-### 3. Macromolecular Sorting and Vesicular Trafficking 
+#### 3. Macromolecular Sorting and Vesicular Trafficking 
 The Trans-Golgi Network acts as a master sorting hub, packaging cargo into three specialized tracks: 
 - **Constitutive Secretory Pathway**: Continuous, unregulated transport of proteins and lipids directly to the cell membrane for structural maintenance or extracellular release (e.g., extracellular matrix components). 
 - **Regulated Secretory Pathway**: Cargo is densely stored in secretory vesicles that only fuse with the cell membrane upon receiving a specific external signal (e.g., beta cells releasing **[[Insulin]]** when blood glucose rises). 
 - **Lysosomal Pathway**: Vesicles coated with **Clathrin** proteins recognize M6P-tagged digestive enzymes and transport them straight to endosomes and lysosomes. 
 --- 
-## Dynamic Models of Golgi Transport 
+### Dynamic Models of Golgi Transport 
 Biologists use two main theories to explain how materials actually move *through* the Golgi stack: 
 1. **Vesicular Transport Model**: The cisternae remain stationary structures with unique enzymes. Cargo molecules move forward from one sac to the next via tiny, forward-budding transport vesicles. 
 2. **Cisternal Maturation Model**: The cisternae are dynamic structures. A *cis*-cisterna physically migrates forward, changing its enzyme composition over time to become a *medial* and eventually a *trans*-cisterna, while resident enzymes are constantly recycled backward via retrograde vesicles. *Modern evidence heavily favors this model.* 
 ---
-# Lysosomes
+## Lysosomes
 
-## Overview
+### Overview
 **Lysosomes** are spherical, membrane-bound organelles that function as the cell's primary garbage disposal and recycling center. Part of the endomembrane system, they contain a potent cocktail of hydrolytic enzymes capable of breaking down every major type of biological polymer (proteins, nucleic acids, lipids, and carbohydrates).
 
 > [!NOTE] Diagram of lysosome
-![[Pasted image 20260830131000.png]]
+> ![[Lysosomes.png]]
+
 
  --- 
-## Visual Reference
+### Visual Reference
 ```mermaid
 graph LR
     %% Define Node Styles
@@ -408,7 +409,7 @@ graph LR
 
 ---
 
-## Biochemical Microenvironment and Homeostasis
+### Biochemical Microenvironment and Homeostasis
 
 ### 1. Acid Hydrolases
 Lysosomes contain roughly 50 different degradative enzymes (including proteases, nucleases, lipases, and glycosidases). 
@@ -425,27 +426,27 @@ Lysosomes contain roughly 50 different degradative enzymes (including proteases,
 
 ---
 
-## Detailed Physiological Functions
+### Detailed Physiological Functions
 
 Lysosomes process material derived from both outside and inside the cell through three primary routes:
 
-### 1. Heterophagy: Heterophagic Digestion
+#### 1. Heterophagy: Heterophagic Digestion
 The processing of foreign matter brought into the cell from the extracellular space.
 - **Phagocytosis**: Specialized cells (like macrophages) engulf large particles or whole bacteria into a vesicle called a **phagosome**. The phagosome fuses with a lysosome to form a **phagolysosome**, destroying the pathogen.
 - **Receptor-Mediated Endocytosis**: Extracellular macromolecules captured by surface receptors enter via clathrin-coated pits, mature into **[[Endosomes]]**, and eventually fuse with lysosomes for processing.
 
-### 2. Autophagy: Cellular Self-Recycling
+#### 2. Autophagy: Cellular Self-Recycling
 The internal quality control mechanism used to destroy old or damaged cellular parts.
 - **Enclosure**: A crescent-shaped membrane wraps around worn-out organelles (like damaged, leaky mitochondria) or aggregated proteins, sealing them into a double-membrane vesicle called an **autophagosome**.
 - **Degradation**: The autophagosome fuses with a lysosome. The internal contents are broken down into basic amino acids and fatty acids, which are pumped back into the cytosol to build new cellular structures.
 
-### 3. Autolysis: Programmed Cell Death
+#### 3. Autolysis: Programmed Cell Death
 - Under specific developmental or catastrophic conditions, a cell may trigger the simultaneous rupture of all its lysosomes. 
 - This releases massive amounts of active enzymes directly into the cytoplasm, completely digesting the host cell from the inside out.
 
 ---
 
-## Clinical Significance: Lysosomal Storage Diseases (LSDs)
+### Clinical Significance: Lysosomal Storage Diseases (LSDs)
 
 When a single gene mutation causes one specific acid hydrolase enzyme to be missing or dysfunctional, the cell cannot break down the substrate corresponding to that enzyme. The substrate accumulates endlessly inside the lysosomes, causing cell swelling and death.
 
@@ -457,15 +458,13 @@ When a single gene mutation causes one specific acid hydrolase enzyme to be miss
 | **I-Cell Disease** | Phosphotransferase | None (Enzymes missorted) | Golgi fails to add **[[Mannose-6-Phosphate (M6P)]]** tags. Enzymes are secreted out of the cell instead of going to lysosomes. |
 
 ---
-# Peroxisomes (Microbodies)
+## Peroxisomes (Microbodies)
 
-## Overview
+### Overview
 **Peroxisomes** are small, spherical, single-membrane-bound organelles found in virtually all eukaryotic cells. Classified structurally as **microbodies**, they are functionally distinct from lysosomes because they are *not* part of the endomembrane system. Instead, they operate as independent metabolic hubs specialized in executing critical oxidative reactions, producing and neutralizing hydrogen peroxide ($H_2O_2$) as a byproduct.
 
-
 ---
-
-## Visual Reference
+### Visual Reference
 
 
 
@@ -495,7 +494,7 @@ graph TD
 
 ---
 
-## Biogenesis: How Peroxisomes Form
+### Biogenesis: How Peroxisomes Form
 Unlike lysosomes (which bud directly from the Golgi complex), peroxisomes are self-replicating organelles with a unique biogenesis pathway:
 - **De Novo Formation**: They can arise from the budding of specialized precursor vesicles derived from both the **[[Endoplasmic Reticulum (ER)]]** and **[[Mitochondria]]**.
 - **Fission**: Mature peroxisomes grow by importing lipids and cytosolic proteins, subsequently dividing via binary-like fission to increase cell count.
@@ -503,33 +502,33 @@ Unlike lysosomes (which bud directly from the Golgi complex), peroxisomes are se
 
 ---
 
-## Core Biochemical Functions
+### Core Biochemical Functions
 
-### 1. Hydrogen Peroxide ($H_2O_2$) Metabolism
+#### 1. Hydrogen Peroxide ($H_2O_2$) Metabolism
 Peroxisomes balance highly destructive oxidative reactions within a single, safely contained compartment:
 - **Production**: Flavin-containing **oxidases** strip hydrogen atoms from organic substrates ($R$) and bind them directly to molecular oxygen ($O_2$). This generates the highly toxic free radical, hydrogen peroxide:
   $$RH_2 + O_2 \xrightarrow{\text{Oxidase}} R + H_2O_2$$
 - **Neutralization**: The enzyme **catalase** represents up to 40% of total peroxisomal protein. It rapidly dismantles the toxic $H_2O_2$ accumulation, converting it safely into water and oxygen, or utilizing it to oxidize other harmful substances:
   $$2H_2O_2 \xrightarrow{\text{Catalase}} 2H_2O + O_2$$
 
-### 2. Very Long Chain Fatty Acid (VLCFA) $\beta$-Oxidation
+#### 2. Very Long Chain Fatty Acid (VLCFA) $\beta$-Oxidation
 - **Breakdown**: Mitochondria cannot process ultra-long lipid chains. Peroxisomes possess exclusive enzymes to initiate the $\beta$-oxidation of **VLCFAs** (fatty acids with $\ge 22$ carbons) and branched-chain fatty acids.
 - **Energy Transfer**: The chain is systematically shortened into **Acetyl-CoA**, which is exported out to the mitochondria to feed into the Krebs Cycle for ATP production.
 
-### 3. Plasmalogen & Biosynthesis
+#### 3. Plasmalogen & Biosynthesis
 - **Myelin Sheath Integrity**: Peroxisomes contain the key enzymes required to synthesize **plasmalogens**, the most abundant class of phospholipids found in myelin sheaths. Healthy peroxisomes are essential for normal neurological insulation and brain function.
 - **Bile Acid Synthesis**: In the liver, peroxisomal enzymes convert cholesterol intermediates into functional bile acids required for dietary fat digestion.
 
 ---
 
-## Specialised Variations in Other Organisms
+### Specialised Variations in Other Organisms
 
 - **Glyoxysomes (Plants)**: Found in germinating plant seeds. They contain enzymes for the **glyoxylate cycle**, which converts stored lipid reserves directly into carbohydrates (sucrose), fueling seedling growth before the plant can execute photosynthesis.
 - **Crystalline Core**: In many animal and plant cells (though typically absent in adult humans), high concentrations of the enzyme **urate oxidase** precipitate out, forming a highly dense, visibly dark crystalline core under electron microscopes.
 
 ---
 
-## Clinical Significance: Peroxisomal Disorders
+### Clinical Significance: Peroxisomal Disorders
 
 Defects in peroxisome function block VLCFA breakdown, halting myelin synthesis and rapidly destroying nervous tissue.
 
@@ -539,32 +538,24 @@ Defects in peroxisome function block VLCFA breakdown, halting myelin synthesis a
 | **X-Linked Adrenoleukodystrophy (X-ALD)** | **ABCD1** transporter gene mutation | Defective peroxisomal membrane protein prevents VLCFAs from entering the organelle for breakdown. VLCFAs accumulate in the brain and adrenal cortex, causing myelin degradation and adrenal insufficiency. |
 
 ---
+## Semi-Autonomous Organelles & Endosymbiotic Theory
 
----
-tags:
-  - Biotech/Sem1
-  - CellBiology/Organelles
-  - Evolution/Cellular
----
-
-# Semi-Autonomous Organelles & Endosymbiotic Theory
-
-## 1. Overview of Semi-Autonomy
+### 1. Overview of Semi-Autonomy
 **Semi-autonomous organelles** are cellular structures that contain their own genetic material and can perform independent functions, yet still rely on the host cell nucleus for survival. 
 * **Key Examples:** [[Mitochondria]] and [[Chloroplasts]].
 * **The Core Paradox:** They contain their own machinery but cannot survive outside the host cell today.
 
 ---
 
-## 2. The Endosymbiotic Theory
+### 2. The Endosymbiotic Theory
 Proposed by **Lynn Margulis**, this theory states that eukaryotic cells evolved through a symbiotic relationship between distinct prokaryotic organisms.
 
-### A. Evolutionary Timeline
+#### A. Evolutionary Timeline
 1. **Host Cell:** An ancestral anaerobic eukaryote (or large archaeon) engulfed smaller prokaryotes.
 2. **Mitochondrial Origin:** The host engulfed an **aerobic heterotrophic alphaproteobacterium**. Instead of digesting it, the host retained it for its efficient ATP production.
 3. **Chloroplast Origin:** A lineage of the mitochondria-containing cells subsequently engulfed a **photosynthetic cyanobacterium**, leading to modern plants and algae.
 
-### B. Visual Summary of the Process
+#### B. Visual Summary of the Process
 ```mermaid
 graph TD
     %% Define Nodes
@@ -607,7 +598,7 @@ graph TD
 > * **The Core Rule:** All plants have mitochondria because Endosymbiosis 1 happened first; animals lack chloroplasts because their lineage branched off before Endosymbiosis 2 occurred.
 
 ---
-## 3. High-Yield Evidence for Endosymbiosis 
+### 3. High-Yield Evidence for Endosymbiosis 
 Biotech exams frequently test the specific bacterial characteristics of these organelles. Use this checklist for reference: 
 - [ ] **Circular DNA:** Both organelles possess naked, circular DNA loops ($mtDNA$ and $cpDNA$) completely lacking histones, identical to bacterial genomes. 
 - [ ] **Ribosome Size:** They contain **70S ribosomes** (composed of 50S and 30S subunits), whereas the eukaryotic cytoplasm uses **80S ribosomes**. 
@@ -618,9 +609,9 @@ Biotech exams frequently test the specific bacterial characteristics of these or
 - [ ] **Antibiotic Sensitivity:** Organellar protein synthesis is inhibited by bacterial antibiotics (e.g., chloramphenicol, tetracycline) but unaffected by eukaryotic inhibitors (e.g., cycloheximide). 
 
 ---
-## 4. Why are they only "Semi"-Autonomous? 
+### 4. Why are they only "Semi"-Autonomous? 
 Over evolutionary timescales, the relationship transformed from symbiosis to absolute dependency due to two main factors: 
-### A. Endosymbiotic Gene Transfer (EGT) 
+#### A. Endosymbiotic Gene Transfer (EGT) 
 * Over millions of years, a massive migration of genes occurred from the organelle's genome to the host cell’s nucleus. 
 * **Result:** Mitochondria only retain about 37 genes; the rest are housed in the nucleus. ### B. Nuclear Control of Assembly 
 * While they make some of their own proteins, the vast majority of their proteins are encoded by nuclear DNA, synthesized in the cytosol, and imported via complex translocases: 
@@ -628,7 +619,7 @@ Over evolutionary timescales, the relationship transformed from symbiosis to abs
 	* **Chloroplasts:** [[TOC/TIC Complex]] 
 
 ---
-## 5. Quick Comparison Table
+### 5. Quick Comparison Table
 | Feature              | Mitochondria               | Chloroplast            | Ancestral Bacterium    |
 | :------------------- | :------------------------- | :--------------------- | :--------------------- |
 | **Primary Function** | Cellular Respiration (ATP) | Photosynthesis (Sugar) | Independent Metabolism |
@@ -637,12 +628,14 @@ Over evolutionary timescales, the relationship transformed from symbiosis to abs
 | **Ribosome Type**    | 70S                        | 70S                    | 70S                    |
 
 --- 
-# [[Nucleus]] 
+## [[Nucleus]] 
 
 The cell nucleus is ==a membrane-bound organelle in eukaryotic cells that stores DNA and directs all cellular activities==.
 
 >[!info] Info
 >Everything about nucleus is in the link, click [[Nucleus]] to view.
 
-
-
+---
+# Part 2: Genetics
+	````
+	```

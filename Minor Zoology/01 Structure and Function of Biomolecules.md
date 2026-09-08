@@ -9,7 +9,6 @@
 
 ---
 # 1.1 [[Carbohydrates]]
-Do refer to the link 
-
+# 1.2 [[Amino Acid & Protein]]
 
 
