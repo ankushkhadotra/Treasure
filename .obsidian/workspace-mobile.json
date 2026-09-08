@@ -180,8 +180,8 @@
         "state": {
           "type": "review-queue-list-view",
           "state": {},
-          "icon": "SpacedRepIcon",
-          "title": "Notes Review Queue"
+          "icon": "lucide-ghost",
+          "title": "review-queue-list-view"
         }
       },
       {
@@ -212,10 +212,10 @@
       "fleurpdf-tint:FleurPDF tint": false
     }
   },
-  "active": "3cae6291dd412306",
+  "active": "c43e6a1121aa7c7d",
   "lastOpenFiles": [
-    "Major Biotech/01 Cell Biology and Genetics-2.pdf",
     "Major Biotech/01 Cell Biology and Genetics.md",
+    "Major Biotech/01 Cell Biology and Genetics-2.pdf",
     "Major Biotech/01 Cell Biology and Genetics.pdf",
     "Major Biotech/images/Endoplasmic reticulum.png",
     "Major Biotech/images/Endoplasmic reticulum 1.png",
