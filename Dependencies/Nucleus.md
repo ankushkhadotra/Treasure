@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### 1. Structural Overview & Universality
 
 - **Definition:** The defining membrane-bound organelle of eukaryotic cells, acting as the repository of genetic information and the master control center for replication, transcription, and cellular metabolism. 
@@ -239,3 +240,5 @@ DNA does not float freely; it is complexed with basic **Histone Proteins** to fo
     - **Classification:**
 	    - **_Constitutive Heterochromatin**:_ Permanently condensed and genetically inert across all cell types (e.g., centromeric and telomeric regions).  
 		* **_Facultative Heterochromatin**:_ Genes that are specifically silenced in certain cell lineages but may be de-condensed and activated in other cell types or developmental stages.
+=======
+>>>>>>> origin/main

@@ -1,0 +1,188 @@
+/* ──────────────────────────────────────────────
+   TLP Classification Plugin — Styles
+   ────────────────────────────────────────────── */
+
+/* ── Selector modal ─────────────────────────── */
+
+.tlp-selector-modal {
+	padding: 16px 20px;
+}
+
+.tlp-modal-title {
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 4px;
+}
+
+.tlp-modal-subtitle {
+	font-size: 13px;
+	color: var(--text-muted);
+	margin-bottom: 16px;
+}
+
+.tlp-options-list {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+}
+
+.tlp-option-row {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	padding: 8px 12px;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: background-color 100ms ease;
+}
+
+.tlp-option-row:hover,
+.tlp-option-row.is-highlighted {
+	background-color: var(--background-modifier-hover);
+}
+
+.tlp-option-row.is-active {
+	background-color: var(--background-modifier-active-hover);
+}
+
+.tlp-badge {
+	display: inline-block;
+	font-size: 10px;
+	font-weight: 600;
+	letter-spacing: 1.5px;
+	padding: 3px 12px;
+	border-radius: 0;
+	font-family: system-ui, -apple-system, sans-serif;
+	white-space: nowrap;
+	min-width: 100px;
+	text-align: center;
+}
+
+.tlp-option-desc {
+	font-size: 12px;
+	color: var(--text-muted);
+	flex: 1;
+}
+
+.tlp-check {
+	display: flex;
+	align-items: center;
+	color: var(--interactive-accent);
+}
+
+.tlp-check svg {
+	width: 16px;
+	height: 16px;
+}
+
+/* ── Status bar ─────────────────────────────── */
+
+.tlp-status-bar {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	cursor: pointer;
+	padding: 0 8px;
+	border-radius: 4px;
+	transition: background-color 100ms ease;
+}
+
+.tlp-status-bar:hover {
+	background-color: var(--background-modifier-hover);
+}
+
+.tlp-status-dot {
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	flex-shrink: 0;
+}
+
+.tlp-status-label {
+	font-size: 11px;
+	font-weight: 600;
+	letter-spacing: 0.8px;
+}
+
+.tlp-status-none {
+	color: var(--text-faint);
+	font-weight: 400;
+}
+
+/* ── Properties panel widget ────────────────── */
+
+.tlp-property-widget {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	cursor: pointer;
+	padding: 2px 4px;
+	border-radius: 6px;
+	transition: background-color 100ms ease;
+	width: 100%;
+}
+
+.tlp-property-widget:hover {
+	background-color: var(--background-modifier-hover);
+}
+
+.tlp-prop-badge {
+	display: inline-block;
+	font-size: 11px;
+	font-weight: 600;
+	letter-spacing: 1.5px;
+	padding: 3px 12px;
+	border-radius: 0;
+	font-family: system-ui, -apple-system, sans-serif;
+	white-space: nowrap;
+}
+
+.tlp-prop-chevron {
+	display: flex;
+	align-items: center;
+	color: var(--text-faint);
+	margin-left: auto;
+}
+
+.tlp-prop-placeholder {
+	font-size: 13px;
+	color: var(--text-faint);
+	font-style: italic;
+}
+
+/* ── Editor banner ──────────────────────────── */
+
+.tlp-banner-host {
+	position: relative;
+}
+
+.tlp-editor-banner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 3px;
+	z-index: 10;
+	pointer-events: none;
+	transition: background-color 200ms ease;
+}
+
+/* ── Utility classes ─────────────────────────── */
+
+.tlp-hidden {
+	display: none;
+}
+
+/* Hide the native Obsidian input we replace with our badge widget.
+   Scoped to the property value container to win specificity over
+   Obsidian's own input rules without resorting to !important. */
+.metadata-property-value .tlp-native-hidden {
+	display: none;
+}
+
+/* ── Hide auto-generated template properties ── */
+
+.metadata-property[data-property-key="headertemplate"],
+.metadata-property[data-property-key="footertemplate"] {
+	display: none;
+}
