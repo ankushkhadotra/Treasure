@@ -364,6 +364,7 @@ Biologists use two main theories to explain how materials actually move *through
 ### Visual Reference
 
 ![[Visual Reference of Lysosome.png]]
+
 ---
 
 ### Biochemical Microenvironment and Homeostasis
