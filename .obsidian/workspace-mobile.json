@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Major Biotech/01 Cell Biology and Genetics.md",
-                "mode": "preview",
+                "file": "Amino Acid.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01 Cell Biology and Genetics"
+              "title": "Amino Acid"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "01 Cell Biology and Genetics"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -208,12 +207,13 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "obsidian-spaced-repetition:Review flashcards": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
       "fleurpdf-tint:FleurPDF tint": false
     }
   },
-  "active": "c43e6a1121aa7c7d",
+  "active": "90151656ca8b063c",
   "lastOpenFiles": [
+    "Major Biotech/02 Introduction to Biomolecules.md",
+    "Amino Acid.md",
     "Major Biotech/01 Cell Biology and Genetics.md",
     "Major Biotech/01 Cell Biology and Genetics-2.pdf",
     "Major Biotech/01 Cell Biology and Genetics.pdf",
@@ -228,7 +228,6 @@
     "Nucleus.md",
     "Minor Zoology/Carbohydrates.md",
     "Major Biotech/Mitochondria.md",
-    "Major Biotech/02 Introduction to Biomolecules.md",
     "Minor Zoology/Syllabus- SEM 1(Min. Zoology).md",
     "Minor Zoology/01 Structure and Function of Biomolecules.md",
     "Major Biotech/Syllabus- SEM 1(Maj.).md",
