@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Amino Acid.md",
-                "mode": "source",
+                "file": "Major Biotech/01 Cell Biology and Genetics.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Amino Acid"
+              "title": "01 Cell Biology and Genetics"
             }
           },
           {
@@ -212,8 +212,8 @@
   },
   "active": "90151656ca8b063c",
   "lastOpenFiles": [
-    "Major Biotech/02 Introduction to Biomolecules.md",
     "Amino Acid.md",
+    "Major Biotech/02 Introduction to Biomolecules.md",
     "Major Biotech/01 Cell Biology and Genetics.md",
     "Major Biotech/01 Cell Biology and Genetics-2.pdf",
     "Major Biotech/01 Cell Biology and Genetics.pdf",
