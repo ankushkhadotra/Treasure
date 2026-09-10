@@ -814,6 +814,7 @@ Mendel deduced his laws entirely from statistical distribution data. Modern biot
 * **Principle:** In a heterozygous state ($F_1$), one allele suppresses the phenotypic expression of its contrasting partner allele. 
 * **Dominant Allele:** The allele that manifests its phenotype in both homozygous and heterozygous states.
 * **Recessive Allele:** The allele whose expression is masked in a heterozygote and only appears when homozygous.
+#### Exceptions of Laws of Dominance 
 
 ### II. The Law of Segregation (Purity of Gametes)
 * **Biochemical Definition:** The separation of contrasting functional alleles into isolated, haploid cellular containers (gametes).
