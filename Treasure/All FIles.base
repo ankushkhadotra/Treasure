@@ -1,0 +1,10 @@
+formulas:
+  Untitled: ""
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+    sort: []
+  - type: cards
+    name: View

@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "activePreset": "ink-gray",
+  "customTemplates": [
+    {
+      "id": "mtrnj4gw",
+      "name": "New Template",
+      "color": "#F5F0E1",
+      "pattern": "grid",
+      "patternGap": 28,
+      "patternSize": 1.2,
+      "patternColor": "#968c82",
+      "patternOpacity": 0.35
+    }
+  ]
+}

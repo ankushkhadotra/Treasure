@@ -1,0 +1,502 @@
+/*
+ * Better Paste - Plugin for Obsidian
+ * Copyright (c) 2026 Johan Sanneblad
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+/* The list settings hold parameter names and domain rules, which read better in a
+   monospaced font and need to be wide enough to show a full rule on one line. */
+.better-paste-settings textarea {
+    width: 100%;
+    min-width: 20em;
+    resize: vertical;
+    font-family: var(--font-monospace);
+    font-size: var(--font-ui-smaller);
+    line-height: 1.5;
+}
+
+/* Worked example under the link-cleaning toggle */
+.better-paste-example {
+    margin-top: var(--size-4-1);
+    font-family: var(--font-monospace);
+    font-size: var(--font-ui-smaller);
+    overflow-wrap: anywhere;
+}
+
+.better-paste-example-removed {
+    font-weight: var(--font-bold);
+    color: var(--text-error);
+    text-decoration: line-through;
+}
+
+.better-paste-filename-format input {
+    width: 18em;
+    max-width: 100%;
+    font-family: var(--font-monospace);
+}
+
+/* The naming overview at the end of the Attachments rows uses the full row width */
+.setting-item.better-paste-naming-info {
+    display: block;
+}
+
+.better-paste-naming-info ol {
+    margin: var(--size-2-1) 0 0 var(--size-4-5);
+    padding: 0;
+}
+
+.better-paste-naming-info li + li {
+    margin-top: var(--size-2-1);
+}
+
+/* Live preview panes for the URL and terminal rules */
+.better-paste-preview {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-4-2);
+    width: 100%;
+    margin-top: var(--size-4-2);
+}
+
+.better-paste-preview input,
+.better-paste-preview textarea {
+    width: 100%;
+    font-family: var(--font-monospace);
+    font-size: var(--font-ui-smaller);
+}
+
+.better-paste-preview textarea {
+    resize: vertical;
+}
+
+.better-paste-preview-output {
+    padding: var(--size-4-2);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: var(--radius-s);
+    background-color: var(--background-secondary);
+    font-family: var(--font-monospace);
+    font-size: var(--font-ui-smaller);
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    min-height: 3em;
+}
+
+.better-paste-preview-output.better-paste-preview-empty {
+    color: var(--text-faint);
+    font-style: italic;
+}
+
+/* The tester and plugin rows lay their content out below the label rather than beside it */
+.setting-item.better-paste-tester,
+.setting-item.better-paste-plugins {
+    display: block;
+}
+
+/* ------------------------------------------------------------------ */
+/* Custom processing                                                   */
+/* ------------------------------------------------------------------ */
+
+/* The diagram and its explanation use the full row width. */
+.setting-item.better-paste-pipeline-setting {
+    display: block;
+}
+
+.better-paste-pipeline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--size-4-2);
+    margin-top: var(--size-4-4);
+    margin-bottom: var(--size-4-4);
+}
+
+/* A step and the arrow after it wrap as one unit, so no line starts with an arrow. */
+.better-paste-pipeline-group {
+    display: flex;
+    align-items: center;
+    gap: var(--size-4-2);
+}
+
+.better-paste-pipeline-step {
+    padding: var(--size-4-2) var(--size-4-3);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: var(--radius-s);
+    background-color: var(--background-primary);
+    font-size: var(--font-ui-smaller);
+}
+
+/* Inverted, so the stage this section configures stands out in both themes */
+.better-paste-pipeline-step-current {
+    border-color: var(--text-normal);
+    background-color: var(--text-normal);
+    color: var(--background-primary);
+}
+
+.better-paste-pipeline-arrow {
+    color: var(--text-muted);
+}
+
+.better-paste-pipeline-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--size-4-2);
+    margin-top: var(--size-4-2);
+}
+
+.better-paste-settings .better-paste-snippet-edit-button {
+    height: auto;
+    min-height: 0;
+    min-width: 0;
+    margin-inline-start: var(--size-4-1);
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background-color: transparent;
+    box-shadow: none;
+    color: var(--text-accent);
+    font: inherit;
+    line-height: inherit;
+    cursor: pointer;
+}
+
+.better-paste-settings .better-paste-snippet-edit-button:hover,
+.better-paste-settings .better-paste-snippet-edit-button:focus-visible {
+    background-color: transparent;
+    box-shadow: none;
+    color: var(--text-accent-hover);
+    text-decoration: underline;
+}
+
+.better-paste-snippet-modal {
+    width: 48em;
+    max-width: 90vw;
+}
+
+/* The rules need the full modal width so expressions remain readable. */
+.better-paste-snippet-modal .better-paste-snippet-rules-setting {
+    display: block;
+}
+
+.better-paste-snippet-modal .better-paste-snippet-rules-setting .setting-item-control {
+    width: 100%;
+    margin-top: var(--size-4-2);
+}
+
+.better-paste-snippet-rules-setting textarea {
+    width: 100%;
+    resize: vertical;
+    font-family: var(--font-monospace);
+    font-size: var(--font-ui-smaller);
+    line-height: 1.5;
+}
+
+.better-paste-snippet-validation,
+.better-paste-snippet-import-summary,
+.better-paste-snippet-import-desc,
+.better-paste-snippet-preview-desc {
+    margin-top: var(--size-4-1);
+    color: var(--text-muted);
+    font-size: var(--font-ui-smaller);
+    line-height: 1.5;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+
+.better-paste-snippet-validation-error {
+    color: var(--text-error);
+}
+
+.better-paste-snippet-invalid-heading,
+.better-paste-snippet-preview-label {
+    margin-top: var(--size-4-3);
+    color: var(--text-muted);
+    font-size: var(--font-ui-smaller);
+    font-weight: var(--font-semibold);
+}
+
+/* ------------------------------------------------------------------ */
+/* Cards for the author's other plugins                                */
+/* ------------------------------------------------------------------ */
+
+/* One column when the settings pane is narrow, because the description needs the width */
+.better-paste-plugin-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16em, 1fr));
+    gap: var(--size-4-2);
+    margin-top: var(--size-4-2);
+}
+
+/* A button so the whole card can be reached from the keyboard. The declarations before
+   the layout undo the button styling a theme applies. */
+.better-paste-plugin-card {
+    height: auto;
+    padding: var(--size-4-3);
+    background-color: var(--background-secondary);
+    box-shadow: none;
+    text-align: start;
+    white-space: normal;
+    display: flex;
+    align-items: flex-start;
+    gap: var(--size-4-3);
+    width: 100%;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: var(--radius-m);
+    cursor: pointer;
+}
+
+.better-paste-plugin-card:hover {
+    border-color: var(--background-modifier-border-hover);
+    background-color: var(--background-modifier-hover);
+}
+
+.better-paste-plugin-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+    width: var(--size-4-8);
+    height: var(--size-4-8);
+    border-radius: var(--radius-m);
+    background-color: var(--background-primary);
+    color: var(--text-accent);
+}
+
+/* min-width lets a long word wrap instead of stretching the card past its column */
+.better-paste-plugin-details {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-2-1);
+    min-width: 0;
+}
+
+.better-paste-plugin-name {
+    color: var(--text-normal);
+    font-size: var(--font-ui-small);
+    font-weight: var(--font-semibold);
+    line-height: 1.3;
+}
+
+/* One line whatever the language, cut with an ellipsis, so every card is the same height
+   and the row costs the same as the rows above it */
+.better-paste-plugin-description {
+    color: var(--text-muted);
+    font-size: var(--font-ui-smaller);
+    line-height: 1.4;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Sits at the far edge, the way Obsidian marks a row that opens somewhere else. It keeps
+   to the middle of the card while the icon and the name line up at the top. */
+.better-paste-plugin-arrow {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    flex: 0 0 auto;
+    margin-inline-start: auto;
+    color: var(--text-faint);
+}
+
+.better-paste-plugin-arrow .svg-icon {
+    width: var(--icon-s);
+    height: var(--icon-s);
+}
+
+.better-paste-plugin-card:hover .better-paste-plugin-arrow {
+    color: var(--text-muted);
+}
+
+/* ------------------------------------------------------------------ */
+/* Welcome and What's new dialogs                                      */
+/* ------------------------------------------------------------------ */
+
+.modal.better-paste-modal {
+    width: 600px;
+    max-width: calc(100vw - 40px);
+}
+
+.modal.better-paste-modal .modal-content {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+}
+
+.better-paste-modal-buttons {
+    display: flex;
+    justify-content: center;
+    gap: var(--size-4-2);
+    margin-top: var(--size-4-4);
+}
+
+.better-paste-overlap-remind {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--size-4-2);
+    margin-top: var(--size-4-4);
+    color: var(--text-muted);
+    cursor: pointer;
+}
+
+.better-paste-modal-divider {
+    border-top: 1px solid var(--background-modifier-border);
+    margin-top: var(--size-4-4);
+}
+
+.better-paste-modal-support {
+    margin-bottom: 0;
+    color: var(--text-muted);
+    font-size: var(--font-ui-small);
+}
+
+/* The release list is the only part that scrolls, so the support line and the
+   buttons stay visible however many versions are being shown at once. */
+.better-paste-release-scroll {
+    flex: 1 1 auto;
+    min-height: 0;
+    max-height: min(60vh, 480px);
+    overflow-y: auto;
+    padding-right: var(--size-4-2);
+}
+
+.better-paste-release + .better-paste-release {
+    margin-top: var(--size-4-4);
+}
+
+.better-paste-release h3 {
+    margin: 0 0 var(--size-4-2);
+    padding: var(--size-4-1) var(--size-4-2);
+    border-radius: var(--radius-s);
+    background-color: var(--background-secondary);
+    font-size: var(--font-ui-medium);
+}
+
+.better-paste-release h4 {
+    margin: var(--size-4-3) 0 var(--size-4-1);
+    font-size: var(--font-ui-small);
+}
+
+.better-paste-release ul {
+    margin: 0;
+    padding-left: var(--size-4-5);
+}
+
+.better-paste-release li {
+    margin-bottom: var(--size-4-1);
+}
+
+/* The banner is fetched over the network, so the frame holds its 16:9 before the
+   bytes arrive. Without the reserved box the frame is zero high until the image
+   loads and every release note below it jumps down at that moment. Banners are
+   authored at 16:9 whatever their pixel size, so the frame can commit to the ratio
+   and cover has nothing to crop. Ship a banner at another ratio and it gets cut. */
+.better-paste-release-banner {
+    margin-bottom: var(--size-4-3);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: var(--radius-m);
+    overflow: hidden;
+    aspect-ratio: 16 / 9;
+    background-color: var(--background-secondary);
+}
+
+.better-paste-release-banner img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.better-paste-release-info {
+    margin: 0 0 var(--size-4-3);
+    color: var(--text-muted);
+}
+
+/* Inline code in a release note, set the way a theme sets code in a note */
+.better-paste-release-info code,
+.better-paste-release li code {
+    padding: 0.1em 0.35em;
+    border-radius: var(--radius-s);
+    background-color: var(--code-background);
+    color: var(--code-normal);
+    font-size: 0.9em;
+}
+
+/* Marks the one point a release note wants read first, as a highlight rather than
+   coloured text, so it carries at a glance the way a highlight in a note does */
+.better-paste-emphasis {
+    padding: 0 var(--size-2-1);
+    border-radius: var(--radius-s);
+    background-color: var(--text-highlight-bg);
+    color: var(--text-normal);
+    font-weight: var(--font-semibold);
+}
+
+/* Reserves 16:9 before the network picture arrives, so the body text below does
+   not jump down when it loads. See the release banner above. */
+.better-paste-welcome-image {
+    margin-bottom: var(--size-4-4);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: var(--radius-m);
+    overflow: hidden;
+    aspect-ratio: 16 / 9;
+    background-color: var(--background-secondary);
+}
+
+.better-paste-welcome-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.better-paste-welcome-body p {
+    margin: 0 0 var(--size-4-3);
+    line-height: 1.5;
+}
+
+.better-paste-pdf-modal {
+    width: 46em;
+    max-width: 90vw;
+}
+
+.better-paste-pdf-description {
+    margin-bottom: var(--size-4-2);
+    font-size: var(--font-ui-smaller);
+    color: var(--text-muted);
+    line-height: 1.5;
+}
+
+.better-paste-pdf-preview-label {
+    margin-top: var(--size-4-4);
+    margin-bottom: var(--size-4-1);
+    font-size: var(--font-ui-smaller);
+    font-weight: var(--font-semibold);
+    color: var(--text-muted);
+}
+
+.better-paste-pdf-preview {
+    max-height: 16em;
+    overflow: auto;
+    padding: var(--size-4-2);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: var(--radius-s);
+    background-color: var(--background-secondary);
+    font-size: var(--font-ui-smaller);
+    line-height: 1.5;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    user-select: text;
+}
