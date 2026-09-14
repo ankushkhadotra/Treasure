@@ -38,8 +38,7 @@
               "title": "01 Cell Biology and Genetics"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -215,7 +214,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "537cab3b1d109286",
+  "active": "3cae6291dd412306",
   "lastOpenFiles": [
     "Major Biotech/images/two-step metabolic function of a peroxisome.png",
     "Minor Zoology/01 Structure and Function of Biomolecules.md",
