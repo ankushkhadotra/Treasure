@@ -426,7 +426,10 @@ When a single gene mutation causes one specific acid hydrolase enzyme to be miss
 
 ![[Structure-of-Peroxisomes.webp|700]]
 
+![[two-step metabolic function of a peroxisome.png]] 
+
 ---
+
 ### Biogenesis: How Peroxisomes Form
 Unlike lysosomes (which bud directly from the Golgi complex), peroxisomes are self-replicating organelles with a unique biogenesis pathway:
 - **De Novo Formation**: They can arise from the budding of specialized precursor vesicles derived from both the **[[Endoplasmic Reticulum (ER)]]** and **[[Mitochondria]]**.

@@ -1,7 +1,7 @@
 ---
 tags:
   - syllabus
-  - sem1
+  - semester1
   - minor
   - zoology
 aliases:
@@ -35,8 +35,7 @@ cssclasses:
 
 ## Objectives and Expected Learning Outcomes
 
-> [!note] Course Objective
-> The course provides an introduction to the structure of biomolecules and covers basic aspects of life-sustaining processes. After successfully completing this course, students will be able to understand the importance and scope of biochemistry; understand the structure and biological significance of carbohydrates, amino acids, proteins, lipids and nucleic acids; and learn biochemical tests for amino acids, carbohydrates, proteins and nucleic acids.
+The course provides an introduction to the structure of biomolecules and covers basic aspects of life-sustaining processes. After successfully completing this course, students will be able to understand the importance and scope of biochemistry; understand the structure and biological significance of carbohydrates, amino acids, proteins, lipids and nucleic acids; and learn biochemical tests for amino acids, carbohydrates, proteins and nucleic acids.
 
 ---
 
@@ -50,8 +49,7 @@ cssclasses:
 
 ---
 
-## [[UNIT I - Structure and Function of Biomolecules]]
-(13 Hrs.)
+## UNIT I: Structure and Function of Biomolecules (13 Hrs.)
 
 1.1 Classification, Structure and Biological importance of Carbohydrates (Monosaccharides, Disaccharides, Polysaccharides)
 1.2 General Structure, Properties and Functions of Amino acids; Essential and Non-Essential Amino acids
@@ -64,14 +62,14 @@ cssclasses:
 
 2.1 Food and its components: Vitamins, Minerals, Water
 2.2 Digestion
-	2.2.1 Intracellular and Extracellular Digestion
-	2.2.2 Mechanical Digestion of Food
-	2.2.3 Chemical Digestion of Food
+&nbsp;&nbsp;&nbsp;&nbsp;2.2.1 Intracellular and Extracellular Digestion
+&nbsp;&nbsp;&nbsp;&nbsp;2.2.2 Mechanical Digestion of Food
+&nbsp;&nbsp;&nbsp;&nbsp;2.2.3 Chemical Digestion of Food
 2.3 Absorption
-	2.3.1 Active and Passive Absorption (Concept)
-	2.3.2 Carbohydrates
-	2.3.3 Lipids
-	2.3.4 Proteins
+&nbsp;&nbsp;&nbsp;&nbsp;2.3.1 Active and Passive Absorption (Concept)
+&nbsp;&nbsp;&nbsp;&nbsp;2.3.2 Carbohydrates
+&nbsp;&nbsp;&nbsp;&nbsp;2.3.3 Lipids
+&nbsp;&nbsp;&nbsp;&nbsp;2.3.4 Proteins
 
 ## UNIT-3: Respiration in Humans (10 Hrs.)
 
@@ -151,8 +149,4 @@ Fifteen (15) marks for the theory paper in a subject reserved for internal asses
 
 ## Related
 
--  [[Syllabus- SEM 1(Maj.)]]
-- [[Syllabus- SEM 1(Min. Zoology)]]
-- [[Syllabus- SEM 1(VAC EVS)]]
-- [[Syllabus- SEM 1(VAC DTS)]]
-- [[Syllabus- SEM 1(MD Pol Sci)]]
+- [[Syllabus- SEM 1(Maj.)]]

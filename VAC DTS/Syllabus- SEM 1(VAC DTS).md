@@ -1,9 +1,9 @@
 ---
 tags:
   - syllabus
+  - semester1
   - vac
   - digital-technology
-  - sem1
 aliases:
   - 1DTSVACAD02
   - Digital and Technological Solutions
@@ -32,12 +32,18 @@ cssclasses:
 
 ## Objectives
 
-> [!note] Course Objective
-> - To gain familiarity with digital paradigms
->- To sensitize about role & significance of digital technology
->- To provide know-how of communications & networks
->- To bring awareness about the e-governance and Digital India initiatives
->- To provide a flavour of emerging technologies - Cloud, Big Data, AI, 3D printing
+- To gain familiarity with digital paradigms
+- To sensitize about role & significance of digital technology
+- To provide know-how of communications & networks
+- To bring awareness about the e-governance and Digital India initiatives
+- To provide a flavour of emerging technologies - Cloud, Big Data, AI, 3D printing
+
+---
+
+## Unit Hub
+
+- [[01 Introduction to Digital Systems and Communication]]
+- [[02 Digital India, e-Governance and Emerging Technologies]]
 
 ---
 
@@ -67,8 +73,7 @@ cssclasses:
 
 ## Related
 
--  [[Syllabus- SEM 1(Maj.)]]
+- [[Syllabus- SEM 1(Maj.)]]
 - [[Syllabus- SEM 1(Min. Zoology)]]
 - [[Syllabus- SEM 1(VAC EVS)]]
-- [[Syllabus- SEM 1(VAC DTS)]]
-- [[Syllabus- SEM 1(MD Pol Sci)]]
+- [[Syllabus- SEM 1(MDC Pol Sci)]]
