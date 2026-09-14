@@ -15,16 +15,29 @@
               "state": {
                 "file": "Flowchart/fc_biomolecules.canvas",
                 "viewState": {
-                  "x": -42.11024730673762,
-                  "y": -68.19454447658018,
-                  "zoom": -0.9647261374535232
+                  "x": -201.97248488573166,
+                  "y": -215.31213667748514,
+                  "zoom": -1.6737335797774702
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "fc_biomolecules"
             }
+          },
+          {
+            "id": "ae5458ea805bbbc7",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-09-14 21.37.32.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-09-14 21.37.32.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -200,8 +213,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "3cae6291dd412306",
+  "active": "ae5458ea805bbbc7",
   "lastOpenFiles": [
+    "Flowchart/fc_biomolecules.canvas",
+    "Excalidraw/Drawing 2026-09-14 21.37.32.excalidraw.md",
     "Excalidraw/Drawing 2026-08-28 12.38.56.excalidraw.md",
     "VAC DTS",
     "Minor Zoology",
