@@ -25,15 +25,17 @@
             }
           },
           {
-            "id": "ae5458ea805bbbc7",
+            "id": "2ca6d794d90642f7",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2026-09-14 21.37.32.excalidraw.md"
+                "file": "Dependencies/Amino Acid & Protein.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-09-14 21.37.32.excalidraw"
+              "icon": "lucide-file",
+              "title": "Amino Acid & Protein"
             }
           }
         ],
@@ -213,10 +215,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "04b1af201e135102",
+  "active": "2ca6d794d90642f7",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-09-14 21.37.32.excalidraw.md",
+    "Dependencies/Carbohydrates.md",
+    "Skill Biotech/01 Basic Analytical Techniques-I/01 Principle and functioning of micropipette.md",
     "Flowchart/fc_biomolecules.canvas",
+    "Excalidraw/Drawing 2026-09-14 21.37.32.excalidraw.md",
     "Excalidraw/Drawing 2026-08-28 12.38.56.excalidraw.md",
     "VAC DTS",
     "Minor Zoology",
@@ -236,7 +240,6 @@
     "Nuclear Pore Complex.jpg",
     "Dependencies/Nucleus.md",
     "Dependencies/Mitochondria.md",
-    "Dependencies/Carbohydrates.md",
     "Nucleus.md",
     "Minor Zoology/Carbohydrates.md",
     "Major Biotech/Mitochondria.md",
