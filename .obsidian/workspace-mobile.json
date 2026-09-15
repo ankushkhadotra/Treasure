@@ -11,17 +11,14 @@
             "id": "3cae6291dd412306",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Flowchart/fc_biomolecules.canvas",
-                "viewState": {
-                  "x": -201.97248488573166,
-                  "y": -215.31213667748514,
-                  "zoom": -1.6737335797774702
-                }
+                "file": "Minor Zoology/Syllabus- SEM 1(Min. Zoology).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "fc_biomolecules"
+              "icon": "lucide-file",
+              "title": "Syllabus- SEM 1(Min. Zoology)"
             }
           },
           {
@@ -216,6 +213,7 @@
   },
   "active": "3cae6291dd412306",
   "lastOpenFiles": [
+    "Flowchart/fc_biomolecules.canvas",
     "Major Biotech/images/two-step metabolic function of a peroxisome.png",
     "Minor Zoology/01 Structure and Function of Biomolecules.md",
     "Dependencies/Carbohydrates.md",
@@ -225,7 +223,6 @@
     "Minor Zoology/Syllabus- SEM 1(Min. Zoology).md",
     "VAC DTS/Syllabus- SEM 1(VAC DTS).md",
     "Major Biotech/02 Introduction to Biomolecules.md",
-    "Flowchart/fc_biomolecules.canvas",
     "Excalidraw/Drawing 2026-09-14 21.37.32.excalidraw.md",
     "Excalidraw/Drawing 2026-09-08 18.46.49.excalidraw.md",
     "Excalidraw/Drawing 2026-09-08 18.39.03.excalidraw.md",
