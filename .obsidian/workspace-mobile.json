@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Minor Zoology/Syllabus- SEM 1(Min. Zoology).md",
+                "file": "Major Biotech/Syllabus- SEM 1(Maj.).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Syllabus- SEM 1(Min. Zoology)"
+              "title": "Syllabus- SEM 1(Maj.)"
             }
           },
           {
@@ -211,7 +211,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "cdf232c94b4ba995",
+  "active": "3cae6291dd412306",
   "lastOpenFiles": [
     "Minor Zoology/Syllabus- SEM 1(Min. Zoology).md",
     "Flowchart/fc_biomolecules.canvas",
