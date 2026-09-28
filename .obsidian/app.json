@@ -31,5 +31,6 @@
     "editor:unindent-list",
     "editor:configure-toolbar",
     "editor:insert-horizontal-rule"
-  ]
+  ],
+  "readableLineLength": false
 }
