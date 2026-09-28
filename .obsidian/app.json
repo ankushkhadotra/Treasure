@@ -32,5 +32,6 @@
     "editor:configure-toolbar",
     "editor:insert-horizontal-rule"
   ],
-  "readableLineLength": false
+  "readableLineLength": false,
+  "showInlineTitle": false
 }
